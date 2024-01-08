@@ -2,98 +2,63 @@ port: 7890
 mode: rule
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: speednode_0001, server: 172.105.230.133, port: 3306, type: trojan, password: 3c4e10af98c30972, skip-cert-verify: true, udp: true}
-  - {name: speednode_0002, server: 192.121.87.147, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: speednode_0003, server: 103.168.155.69, port: 3306, type: trojan, password: 3c4e10af98c30972, skip-cert-verify: true, udp: true}
-  - {name: speednode_0004, server: 167.88.62.104, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: speednode_0005, server: frontend.kuangbiaoyun.com, port: 40019, type: trojan, password: ad953998-e8ea-4d5b-8b2f-e63edd9d375d, sni: frontend.kuangbiaoyun.com, skip-cert-verify: true, udp: true}
-  - {name: speednode_0006, server: 217.30.10.68, port: 9070, type: ss, cipher: aes-256-cfb, password: bf7v334KKDV3YDhH, udp: true}
-  - {name: speednode_0007, server: 195.154.185.174, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: speednode_0008, server: 5.189.201.250, port: 51348, type: ss, cipher: chacha20-ietf-poly1305, password: siZKu3u9aDTpQjszo7k6P997ESQX0rFWdE7OPhkmARiGZGdr, udp: true}
-  - {name: speednode_0009, server: 103.168.155.123, port: 3306, type: trojan, password: 3c4e10af98c30972, skip-cert-verify: true, udp: true}
-  - {name: speednode_0010, server: 103.168.155.74, port: 3306, type: trojan, password: 3c4e10af98c30972, skip-cert-verify: true, udp: true}
-  - {name: speednode_0011, server: 38.68.134.202, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: speednode_0012, server: 138.186.142.4, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: speednode_0013, server: ifree.lwjyj.com, port: 32102, type: ss, cipher: aes-128-gcm, password: decfbcf5-975d-45c4-a203-f7c99595ebdc, udp: true}
-  - {name: speednode_0014, server: 43.201.53.4, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: speednode_0015, server: 46.183.184.60, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: speednode_0016, server: ifree.lwjyj.com, port: 32101, type: ss, cipher: aes-128-gcm, password: decfbcf5-975d-45c4-a203-f7c99595ebdc, udp: true}
-  - {name: speednode_0017, server: nangua.lwjyj.com, port: 38524, type: ss, cipher: aes-128-gcm, password: decfbcf5-975d-45c4-a203-f7c99595ebdc, udp: true}
-  - {name: speednode_0018, server: 31.40.216.204, port: 36140, type: ss, cipher: chacha20-ietf-poly1305, password: FkBrRfbL2xXy8CqyydvqJY, udp: true}
-  - {name: speednode_0019, server: 51.159.111.208, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: speednode_0020, server: 46.183.185.37, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: speednode_0021, server: 217.30.10.68, port: 9007, type: ss, cipher: aes-256-cfb, password: kSPmvwdFzGMMW5pY, udp: true}
-  - {name: speednode_0022, server: 103.168.155.60, port: 3306, type: trojan, password: 3c4e10af98c30972, skip-cert-verify: true, udp: true}
-  - {name: speednode_0023, server: 212.102.47.198, port: 443, type: ss, cipher: aes-128-cfb, password: shadowsocks, udp: true}
-  - {name: speednode_0024, server: 190.103.176.29, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: speednode_0025, server: 221.150.109.72, port: 59084, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
-  - {name: speednode_0026, server: nangua.lwjyj.com, port: 38525, type: ss, cipher: aes-128-gcm, password: decfbcf5-975d-45c4-a203-f7c99595ebdc, udp: true}
-  - {name: speednode_0027, server: 217.30.10.68, port: 9097, type: ss, cipher: aes-256-cfb, password: Sn5B7jTqr76aCJT8, udp: true}
-  - {name: speednode_0028, server: 217.30.10.68, port: 9000, type: ss, cipher: aes-256-cfb, password: a3GFYt36Sm82Vys9, udp: true}
-  - {name: speednode_0029, server: 217.30.10.68, port: 9057, type: ss, cipher: aes-256-cfb, password: wjTugX3ZtHMB9c3Z, udp: true}
-  - {name: speednode_0030, server: 217.30.10.68, port: 9031, type: ss, cipher: aes-256-cfb, password: BwcAUZk8hUFAkDGN, udp: true}
-  - {name: speednode_0031, server: 192.71.249.78, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: speednode_0032, server: 103.168.155.108, port: 3306, type: trojan, password: 3c4e10af98c30972, skip-cert-verify: true, udp: true}
-  - {name: speednode_0033, server: 221.150.109.14, port: 58023, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
-  - {name: speednode_0034, server: 125.141.31.99, port: 34642, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
-  - {name: speednode_0035, server: 140.238.12.83, port: 443, type: trojan, password: a1718180-d616-4b71-9bb6-3e96ba20f921, skip-cert-verify: true, udp: true}
-  - {name: speednode_0036, server: p230.panda004.net, port: 59084, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
-  - {name: speednode_0037, server: p229.panda004.net, port: 57428, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
-  - {name: speednode_0038, server: 217.30.10.68, port: 9014, type: ss, cipher: aes-256-cfb, password: KnJGad3FqTvjqbaX, udp: true}
-  - {name: speednode_0039, server: 146.185.198.44, port: 51348, type: ss, cipher: chacha20-ietf-poly1305, password: Ktocr9RNlysQyzC4y7dhbDpzH5LWSv12doHUjT9LqHtGPt6r, udp: true}
-  - {name: speednode_0040, server: 217.30.10.68, port: 9038, type: ss, cipher: aes-256-cfb, password: gYCYXfkUQEs2TaJQ, udp: true}
-  - {name: speednode_0041, server: 217.30.10.68, port: 9073, type: ss, cipher: aes-256-cfb, password: daFYagqDdBdA6VTX, udp: true}
-  - {name: speednode_0042, server: nangua.lwjyj.com, port: 38523, type: ss, cipher: aes-128-gcm, password: decfbcf5-975d-45c4-a203-f7c99595ebdc, udp: true}
-  - {name: speednode_0043, server: p237.panda004.net, port: 2003, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
-  - {name: speednode_0044, server: 217.30.10.68, port: 9005, type: ss, cipher: aes-256-cfb, password: ZET59LF6DvCC8KVt, udp: true}
-  - {name: speednode_0045, server: 38.54.108.110, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: speednode_0046, server: 52.221.241.95, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: speednode_0047, server: 89.221.224.50, port: 38860, type: trojan, password: 5107fc37-835b-3e10-9b00-b7b9f3f392c8, skip-cert-verify: true, udp: true}
-  - {name: speednode_0048, server: p221.panda001.net, port: 34642, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
-  - {name: speednode_0049, server: 217.30.10.68, port: 9010, type: ss, cipher: aes-256-cfb, password: f63gg8EruDnUrmz4, udp: true}
-  - {name: speednode_0050, server: 51.145.68.51, port: 29853, type: ss, cipher: chacha20-ietf-poly1305, password: FNAQhxQ1g37o4DYM54pn8f, udp: true}
-  - {name: speednode_0051, server: is-gy.115cloud.link, port: 38860, type: trojan, password: ba794e09-999e-3907-8527-04634df673a8, sni: is-gy.115cloud.link, skip-cert-verify: true, udp: true}
-  - {name: speednode_0052, server: 211.201.169.70, port: 54345, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
-  - {name: speednode_0053, server: 34.92.50.99, port: 26389, type: vmess, uuid: 3415f6ed-0880-43bb-85aa-d6c064cc968c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: speednode_0054, server: 213.202.216.14, port: 443, type: trojan, password: 3f23c1eb-ace4-49ec-a7f0-f591b006b95a, skip-cert-verify: true, udp: true}
-  - {name: speednode_0055, server: p141.panda001.net, port: 54345, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
-  - {name: speednode_0056, server: 13.231.210.254, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: speednode_0057, server: 51.158.146.102, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: speednode_0058, server: p236.panda004.net, port: 58023, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
-  - {name: speednode_0059, server: 217.30.10.68, port: 9033, type: ss, cipher: aes-256-cfb, password: UTJA57ypk2XKQpnm, udp: true}
-  - {name: speednode_0060, server: frontend.yijianlian.app, port: 54530, type: trojan, password: 85ba209b-54d1-4aad-871e-98df4eb224bf, sni: frontend.yijianlian.app, skip-cert-verify: true, udp: true}
-  - {name: speednode_0061, server: 185.4.64.225, port: 443, type: trojan, password: e4818e8930644822aa7d15cc805e3fd7, skip-cert-verify: true, udp: true}
-  - {name: speednode_0062, server: 13.124.93.250, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: speednode_0063, server: 185.180.12.81, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: speednode_0064, server: 217.30.10.68, port: 9027, type: ss, cipher: aes-256-cfb, password: EXN3S3eQpjE7EJu8, udp: true}
-  - {name: speednode_0065, server: 93.170.73.59, port: 51348, type: ss, cipher: chacha20-ietf-poly1305, password: hoc67HGF68Hesujlid, udp: true}
-  - {name: speednode_0066, server: 217.30.10.68, port: 9043, type: ss, cipher: aes-256-cfb, password: HSZuyJQcWe8dxNdF, udp: true}
-  - {name: speednode_0067, server: 183.233.187.235, port: 26668, type: ss, cipher: chacha20-ietf-poly1305, password: 73637cec-699d-4d87-99af-0776ac880604, udp: true}
-  - {name: speednode_0068, server: 193.0.61.96, port: 51348, type: ss, cipher: chacha20-ietf-poly1305, password: uffK3vcG7qkD4uAqWCFmWJcwa8CKbw0G0UZOpn5tk4t66Qyl, udp: true}
-  - {name: speednode_0069, server: hanoi4.speed4g.click, port: 443, type: trojan, password: b379fd8e-75c6-4bd6-8a5b-88f3e64bb3fa, sni: hanoi4.speed4g.click, skip-cert-verify: true, udp: true}
-  - {name: speednode_0070, server: 5.44.249.53, port: 3306, type: trojan, password: 3c4e10af98c30972, skip-cert-verify: true, udp: true}
-  - {name: speednode_0071, server: 5.44.249.52, port: 3306, type: trojan, password: 3c4e10af98c30972, skip-cert-verify: true, udp: true}
-  - {name: speednode_0072, server: cm01.newcome.xyz, port: 5702, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 46961:1210-Tha, obfs-param: 5d3ee46961.microsoft.com, udp: true}
-  - {name: speednode_0073, server: 91.107.215.227, port: 17046, type: ss, cipher: chacha20-ietf-poly1305, password: nbJdO7nhOrQBvUWw0tBoYUjvvSNOJg+s/W1/RL0lFBk=, udp: true}
-  - {name: speednode_0074, server: 37.235.55.42, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: speednode_0075, server: 37.235.55.21, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: speednode_0076, server: 77.72.5.150, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: speednode_0077, server: 192.36.27.94, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: speednode_0078, server: 51.142.73.20, port: 6961, type: ss, cipher: chacha20-ietf-poly1305, password: tAoWzuKvNOPrsLc4fAEOno, udp: true}
-  - {name: speednode_0079, server: 51.142.75.225, port: 47430, type: ss, cipher: chacha20-ietf-poly1305, password: OEYhlVQmP1nedIIIlMgNm5, udp: true}
-  - {name: speednode_0080, server: 103.154.63.16, port: 443, type: trojan, password: cb85c4a1-5ad3-4194-a919-2bbb5b987564, skip-cert-verify: true, udp: true}
-  - {name: speednode_0081, server: 84.17.53.160, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: speednode_0082, server: 47.243.195.27, port: 80, type: ss, cipher: aes-128-gcm, password: a-wym4ovY4Yw, plugin: obfs, plugin-opts: {mode: http, host: None}, udp: true}
-  - {name: speednode_0083, server: 51.145.68.57, port: 13751, type: ss, cipher: chacha20-ietf-poly1305, password: KlJlXXe9KjQX4mh4xC05c9, udp: true}
-  - {name: speednode_0084, server: 92.38.128.6, port: 51348, type: ss, cipher: chacha20-ietf-poly1305, password: dqKIr8HdSiN3ngQA3yz1sBoq74xbvJuwyLU4EXSMoo1rGrCB, udp: true}
-  - {name: speednode_0085, server: nangua.lwjyj.com, port: 32652, type: ss, cipher: aes-128-gcm, password: decfbcf5-975d-45c4-a203-f7c99595ebdc, udp: true}
-  - {name: speednode_0086, server: nangua.lwjyj.com, port: 32651, type: ss, cipher: aes-128-gcm, password: decfbcf5-975d-45c4-a203-f7c99595ebdc, udp: true}
-  - {name: speednode_0087, server: nangua.lwjyj.com, port: 38526, type: ss, cipher: aes-128-gcm, password: decfbcf5-975d-45c4-a203-f7c99595ebdc, udp: true}
-  - {name: speednode_0088, server: 54.201.23.39, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: speednode_0089, server: 1.65.139.54, port: 443, type: ss, cipher: aes-128-gcm, password: a-wym4ovY4Yw, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: "", path: "", tls: false, mux: true, skip-cert-verify: true}, udp: true}
-  - {name: speednode_0090, server: 103.152.221.48, port: 3306, type: trojan, password: 3c4e10af98c30972, skip-cert-verify: true, udp: true}
-  - {name: speednode_0091, server: 13.215.184.165, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: speednode_0092, server: 5.44.249.50, port: 3306, type: trojan, password: 3c4e10af98c30972, skip-cert-verify: true, udp: true}
+  - {name: speednode_0001, server: 77.72.5.150, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: speednode_0002, server: tank.19890604.day, port: 10833, type: trojan, password: 3bbd7fb2-4d5b-4a71-992c-809d2574182a, sni: tank.19890604.day, skip-cert-verify: true, udp: true}
+  - {name: speednode_0003, server: 212.102.47.198, port: 443, type: ss, cipher: aes-128-cfb, password: shadowsocks, udp: true}
+  - {name: speednode_0004, server: p238.panda004.net, port: 56906, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
+  - {name: speednode_0005, server: 217.30.10.68, port: 9093, type: ss, cipher: aes-256-cfb, password: wfLC2y7rzZyCmuyt, udp: true}
+  - {name: speednode_0006, server: sg-ss.ipracevpn.com, port: 2443, type: ss, cipher: aes-256-gcm, password: DvMeY/S8c3hsSQqrL1aWblaHscEVQ03l5lFgneMx56c=, udp: true}
+  - {name: speednode_0007, server: hanoi4.speed4g.click, port: 80, type: vmess, uuid: b379fd8e-75c6-4bd6-8a5b-88f3e64bb3fa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, udp: true, ws-opts: {path: /speed4g.click, headers: {Host: dl.kgvn.garenanow.com}}}
+  - {name: speednode_0008, server: 38.75.136.49, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: speednode_0009, server: 170.80.111.6, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: speednode_0010, server: 54.201.23.39, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: speednode_0011, server: 37.235.55.42, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: speednode_0012, server: 217.30.10.68, port: 9031, type: ss, cipher: aes-256-cfb, password: BwcAUZk8hUFAkDGN, udp: true}
+  - {name: speednode_0013, server: p226.panda004.net, port: 58023, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
+  - {name: speednode_0014, server: p110.panda001.net, port: 54345, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
+  - {name: speednode_0015, server: 51.158.146.102, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: speednode_0016, server: 217.30.10.68, port: 9073, type: ss, cipher: aes-256-cfb, password: daFYagqDdBdA6VTX, udp: true}
+  - {name: speednode_0017, server: 84.17.53.160, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: speednode_0018, server: 51.159.111.208, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: speednode_0019, server: falungong.19890604.day, port: 10821, type: trojan, password: 3bbd7fb2-4d5b-4a71-992c-809d2574182a, sni: falungong.19890604.day, skip-cert-verify: true, udp: true}
+  - {name: speednode_0020, server: 211.201.169.70, port: 54345, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
+  - {name: speednode_0021, server: 195.154.185.174, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: speednode_0022, server: 15.165.15.228, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: speednode_0023, server: 217.30.10.68, port: 9007, type: ss, cipher: aes-256-cfb, password: kSPmvwdFzGMMW5pY, udp: true}
+  - {name: speednode_0024, server: 46.183.184.60, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: speednode_0025, server: 47.243.195.27, port: 80, type: ss, cipher: aes-128-gcm, password: a-wym4ovY4Yw, plugin: obfs, plugin-opts: {mode: http, host: None}, udp: true}
+  - {name: speednode_0026, server: 46.183.184.61, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: speednode_0027, server: xijinping.19890604.day, port: 10811, type: trojan, password: 3bbd7fb2-4d5b-4a71-992c-809d2574182a, sni: xijinping.19890604.day, skip-cert-verify: true, udp: true}
+  - {name: speednode_0028, server: 38.68.135.112, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: speednode_0029, server: falungong.19890604.day, port: 10825, type: trojan, password: 3bbd7fb2-4d5b-4a71-992c-809d2574182a, sni: falungong.19890604.day, skip-cert-verify: true, udp: true}
+  - {name: speednode_0030, server: falungong.19890604.day, port: 10823, type: trojan, password: 3bbd7fb2-4d5b-4a71-992c-809d2574182a, sni: falungong.19890604.day, skip-cert-verify: true, udp: true}
+  - {name: speednode_0031, server: falungong.19890604.day, port: 10826, type: trojan, password: 3bbd7fb2-4d5b-4a71-992c-809d2574182a, sni: falungong.19890604.day, skip-cert-verify: true, udp: true}
+  - {name: speednode_0032, server: 190.120.230.9, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: speednode_0033, server: 190.103.176.29, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: speednode_0034, server: 95.164.69.27, port: 80, type: vmess, uuid: cd4a6d0d-4b26-4ee1-8a42-c2878b5c3b2a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess, headers: {Host: internet.life.com.by}}}
+  - {name: speednode_0035, server: us-new04.gujuji.top, port: 8080, type: vmess, uuid: 4363bdc0-b2b3-4dec-9611-9db0ce651312, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, udp: true, ws-opts: {path: /, headers: {Host: us-new04.gujuji.top}}}
+  - {name: speednode_0036, server: 38.68.135.112, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: speednode_0037, server: 169.197.141.186, port: 801, type: ss, cipher: chacha20-ietf-poly1305, password: tvX1v#NSFP_LG_bJ}
+  - {name: speednode_0038, server: 91.242.229.69, port: 2086, type: vmess, uuid: 88c216b8-56c6-4f34-bcfd-e198ce11f7d6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess, headers: {Host: nl1.xv2ray.net}}}
+  - {name: speednode_0039, server: 193.182.144.240, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: speednode_0040, server: 217.30.10.68, port: 9079, type: ss, cipher: aes-256-cfb, password: TPqX8edgbAURcAMb}
+  - {name: speednode_0041, server: 91.242.229.77, port: 80, type: vmess, uuid: 56890326-df58-432d-be1e-67064e2b4355, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess, headers: {Host: nl2.xv2ray.net}}}
+  - {name: speednode_0042, server: 192.71.244.150, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: speednode_0043, server: 192.71.166.100, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: speednode_0044, server: 3.36.92.179, port: 443, type: ss, Inc. - 1: None, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: speednode_0045, server: 43.201.55.242, port: 443, type: ss, Inc. - 16: None, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: speednode_0046, server: 217.30.10.68, port: 9026, type: ss, cipher: aes-256-cfb, password: QWDDvVE9npNurQfA}
+  - {name: speednode_0047, server: 217.30.10.68, port: 9097, type: ss, cipher: aes-256-cfb, password: Sn5B7jTqr76aCJT8}
+  - {name: speednode_0048, server: www.visa.com.sg, port: 8080, type: vmess, uuid: 54d4d640-731c-4572-d0d4-e8a617816470, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: icu4.mac2win.top}}}
+  - {name: speednode_0049, server: 43.200.1.60, port: 443, type: ss, Inc. - 7: None, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: speednode_0050, server: 47.128.247.139, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: speednode_0051, server: 217.30.10.68, port: 9000, type: ss, cipher: aes-256-cfb, password: a3GFYt36Sm82Vys9}
+  - {name: speednode_0052, server: 13.125.198.95, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: speednode_0053, server: 52.221.212.191, port: 443, type: ss, Inc. - 28: None, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: speednode_0054, server: 13.212.204.117, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: speednode_0055, server: 47.76.189.253, port: 443, type: ss, Ltd. - 1: None, cipher: aes-128-gcm, password: a-wym4ovY4Yw, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: "", path: "", tls: false, mux: true}}
+  - {name: speednode_0056, server: 47.76.185.9, port: 80, type: ss, Ltd. - 34: None, cipher: aes-128-gcm, password: a-wym4ovY4Yw, plugin: obfs, plugin-opts: {mode: http, host: None}}
+  - {name: speednode_0057, server: 34.221.71.169, port: 443, type: ss, Inc. - 38: None, cipher: aes-256-cfb, password: amazonskr05}
 proxy-groups:
 - name: Proxy
   type: select
@@ -156,41 +121,6 @@ proxy-groups:
   - speednode_0055
   - speednode_0056
   - speednode_0057
-  - speednode_0058
-  - speednode_0059
-  - speednode_0060
-  - speednode_0061
-  - speednode_0062
-  - speednode_0063
-  - speednode_0064
-  - speednode_0065
-  - speednode_0066
-  - speednode_0067
-  - speednode_0068
-  - speednode_0069
-  - speednode_0070
-  - speednode_0071
-  - speednode_0072
-  - speednode_0073
-  - speednode_0074
-  - speednode_0075
-  - speednode_0076
-  - speednode_0077
-  - speednode_0078
-  - speednode_0079
-  - speednode_0080
-  - speednode_0081
-  - speednode_0082
-  - speednode_0083
-  - speednode_0084
-  - speednode_0085
-  - speednode_0086
-  - speednode_0087
-  - speednode_0088
-  - speednode_0089
-  - speednode_0090
-  - speednode_0091
-  - speednode_0092
 - name: ♻️ automatic
   type: url-test
   proxies:
@@ -251,41 +181,6 @@ proxy-groups:
   - speednode_0055
   - speednode_0056
   - speednode_0057
-  - speednode_0058
-  - speednode_0059
-  - speednode_0060
-  - speednode_0061
-  - speednode_0062
-  - speednode_0063
-  - speednode_0064
-  - speednode_0065
-  - speednode_0066
-  - speednode_0067
-  - speednode_0068
-  - speednode_0069
-  - speednode_0070
-  - speednode_0071
-  - speednode_0072
-  - speednode_0073
-  - speednode_0074
-  - speednode_0075
-  - speednode_0076
-  - speednode_0077
-  - speednode_0078
-  - speednode_0079
-  - speednode_0080
-  - speednode_0081
-  - speednode_0082
-  - speednode_0083
-  - speednode_0084
-  - speednode_0085
-  - speednode_0086
-  - speednode_0087
-  - speednode_0088
-  - speednode_0089
-  - speednode_0090
-  - speednode_0091
-  - speednode_0092
   url: https://www.google.com/favicon.ico
   interval: 300
 rules:

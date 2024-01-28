@@ -2,122 +2,101 @@ port: 7890
 mode: rule
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: AL_speednode_0001, server: 31.171.153.182, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, delay: 1214}
-  - {name: CA_speednode_0002, server: dongtaiwang2.com, port: 443, type: vmess, uuid: f5c180eb-fbce-49ac-9029-482eca9385c0, alterId: 0, cipher: auto, network: ws, http-opts: {}, h2-opts: {}, tls: true, skip-cert-verify: true, ws-opts: {path: /gzogws, headers: {host: xray1.freeh1.xyz}}, delay: 1947}
-  - {name: CN_speednode_0003, server: tiananmen.19890604.day, port: 10802, type: trojan, udp: true, password: 607af48e-eeb4-4785-97e7-985b79355342, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, network: tcp}
-  - {name: CN_speednode_0004, server: tiananmen.19890604.day, port: 10801, type: trojan, udp: true, password: 607af48e-eeb4-4785-97e7-985b79355342, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, network: tcp}
-  - {name: CN_speednode_0005, server: tiananmen.19890604.day, port: 10803, type: trojan, udp: true, password: 607af48e-eeb4-4785-97e7-985b79355342, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, network: tcp}
-  - {name: CN_speednode_0006, server: tiananmen.19890604.day, port: 10805, type: trojan, udp: true, password: 607af48e-eeb4-4785-97e7-985b79355342, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, network: tcp}
-  - {name: CN_speednode_0007, server: tiananmen.19890604.day, port: 10804, type: trojan, udp: true, password: 607af48e-eeb4-4785-97e7-985b79355342, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, network: tcp}
-  - {name: CN_speednode_0008, server: tiananmen.19890604.day, port: 10806, type: trojan, udp: true, password: 607af48e-eeb4-4785-97e7-985b79355342, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, network: tcp}
-  - {name: CN_speednode_0009, server: tiananmen.19890604.day, port: 10808, type: trojan, udp: true, password: 607af48e-eeb4-4785-97e7-985b79355342, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, network: tcp}
-  - {name: CN_speednode_0010, server: tiananmen.19890604.day, port: 10807, type: trojan, udp: true, password: 607af48e-eeb4-4785-97e7-985b79355342, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, network: tcp}
-  - {name: CN_speednode_0011, server: zf.quanstring.top, port: 41800, type: ss, password: 7a33609f-2e83-415e-b826-b4a71063e9dd, cipher: chacha20-ietf-poly1305}
-  - {name: CN_speednode_0012, server: tank.19890604.day, port: 10829, type: trojan, udp: true, password: 607af48e-eeb4-4785-97e7-985b79355342, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, network: tcp}
-  - {name: CN_speednode_0013, server: tank.19890604.day, port: 10828, type: trojan, udp: true, password: 607af48e-eeb4-4785-97e7-985b79355342, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, network: tcp}
-  - {name: CN_speednode_0014, server: tank.19890604.day, port: 10831, type: trojan, udp: true, password: 607af48e-eeb4-4785-97e7-985b79355342, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, network: tcp}
-  - {name: CN_speednode_0015, server: tank.19890604.day, port: 10832, type: trojan, udp: true, password: 607af48e-eeb4-4785-97e7-985b79355342, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, network: tcp}
-  - {name: CN_speednode_0016, server: tank.19890604.day, port: 10830, type: trojan, udp: true, password: 607af48e-eeb4-4785-97e7-985b79355342, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, network: tcp}
-  - {name: CN_speednode_0017, server: tank.19890604.day, port: 10833, type: trojan, udp: true, password: 607af48e-eeb4-4785-97e7-985b79355342, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, network: tcp}
-  - {name: CN_speednode_0018, server: tank.19890604.day, port: 10827, type: trojan, udp: true, password: 607af48e-eeb4-4785-97e7-985b79355342, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, network: tcp}
-  - {name: CN_speednode_0019, server: tank.19890604.day, port: 10834, type: trojan, udp: true, password: 607af48e-eeb4-4785-97e7-985b79355342, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, network: tcp}
-  - {name: CN_speednode_0020, server: tiananmen.19890604.day, port: 10809, type: trojan, udp: true, password: 607af48e-eeb4-4785-97e7-985b79355342, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, network: tcp}
-  - {name: CN_speednode_0021, server: tiananmen.19890604.day, port: 10810, type: trojan, udp: true, password: 607af48e-eeb4-4785-97e7-985b79355342, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, network: tcp}
-  - {name: CN_speednode_0022, server: xibaozi.19890604.day, port: 10840, type: trojan, udp: true, password: 607af48e-eeb4-4785-97e7-985b79355342, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, network: tcp}
-  - {name: CN_speednode_0023, server: xijinping.19890604.day, port: 10811, type: trojan, udp: true, password: 607af48e-eeb4-4785-97e7-985b79355342, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, network: tcp}
-  - {name: CN_speednode_0024, server: xijinping.19890604.day, port: 10812, type: trojan, udp: true, password: 607af48e-eeb4-4785-97e7-985b79355342, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, network: tcp}
-  - {name: CN_speednode_0025, server: xijinping.19890604.day, port: 10813, type: trojan, udp: true, password: 607af48e-eeb4-4785-97e7-985b79355342, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, network: tcp}
-  - {name: CN_speednode_0026, server: xibaozi.19890604.day, port: 10835, type: trojan, udp: true, password: 607af48e-eeb4-4785-97e7-985b79355342, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, network: tcp}
-  - {name: CN_speednode_0027, server: xijinping.19890604.day, port: 10815, type: trojan, udp: true, password: 607af48e-eeb4-4785-97e7-985b79355342, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, network: tcp}
-  - {name: CN_speednode_0028, server: xijinping.19890604.day, port: 10818, type: trojan, udp: true, password: 607af48e-eeb4-4785-97e7-985b79355342, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, network: tcp}
-  - {name: CN_speednode_0029, server: xijinping.19890604.day, port: 10814, type: trojan, udp: true, password: 607af48e-eeb4-4785-97e7-985b79355342, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, network: tcp}
-  - {name: CN_speednode_0030, server: xijinping.19890604.day, port: 10816, type: trojan, udp: true, password: 607af48e-eeb4-4785-97e7-985b79355342, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, network: tcp}
-  - {name: CN_speednode_0031, server: xijinping.19890604.day, port: 10817, type: trojan, udp: true, password: 607af48e-eeb4-4785-97e7-985b79355342, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, network: tcp}
-  - {name: CN_speednode_0032, server: xibaozi.19890604.day, port: 10836, type: trojan, udp: true, password: 607af48e-eeb4-4785-97e7-985b79355342, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, network: tcp}
-  - {name: CN_speednode_0033, server: xibaozi.19890604.day, port: 10841, type: trojan, udp: true, password: 607af48e-eeb4-4785-97e7-985b79355342, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, network: tcp}
-  - {name: CN_speednode_0034, server: 183.236.51.6, port: 10834, type: trojan, udp: true, password: fd0bdc3a-d4e7-42a3-8400-72db8dee6b71, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, network: tcp}
-  - {name: CN_speednode_0035, server: 58.247.255.217, port: 36999, type: ss, password: 47c97380-6525-46ca-88ef-d23866fc904c, cipher: aes-256-gcm}
-  - {name: CN_speednode_0036, server: falungong.19890604.day, port: 10824, type: trojan, udp: true, password: 607af48e-eeb4-4785-97e7-985b79355342, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, network: tcp}
-  - {name: CN_speednode_0037, server: falungong.19890604.day, port: 10819, type: trojan, udp: true, password: 607af48e-eeb4-4785-97e7-985b79355342, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, network: tcp}
-  - {name: CN_speednode_0038, server: falungong.19890604.day, port: 10826, type: trojan, udp: true, password: 607af48e-eeb4-4785-97e7-985b79355342, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, network: tcp}
-  - {name: CN_speednode_0039, server: falungong.19890604.day, port: 10820, type: trojan, udp: true, password: 607af48e-eeb4-4785-97e7-985b79355342, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, network: tcp}
-  - {name: CN_speednode_0040, server: falungong.19890604.day, port: 10825, type: trojan, udp: true, password: 607af48e-eeb4-4785-97e7-985b79355342, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, network: tcp}
-  - {name: CN_speednode_0041, server: falungong.19890604.day, port: 10822, type: trojan, udp: true, password: 607af48e-eeb4-4785-97e7-985b79355342, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, network: tcp}
-  - {name: CN_speednode_0042, server: falungong.19890604.day, port: 10821, type: trojan, udp: true, password: 607af48e-eeb4-4785-97e7-985b79355342, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, network: tcp}
-  - {name: CN_speednode_0043, server: falungong.19890604.day, port: 10823, type: trojan, udp: true, password: 607af48e-eeb4-4785-97e7-985b79355342, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, network: tcp}
-  - {name: CN_speednode_0044, server: 183.236.51.6, port: 10816, type: trojan, udp: true, password: fd0bdc3a-d4e7-42a3-8400-72db8dee6b71, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, network: tcp}
-  - {name: CN_speednode_0045, server: xibaozi.19890604.day, port: 10846, type: trojan, udp: true, password: 607af48e-eeb4-4785-97e7-985b79355342, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, network: tcp}
-  - {name: CN_speednode_0046, server: 183.236.51.6, port: 10814, type: trojan, udp: true, password: fd0bdc3a-d4e7-42a3-8400-72db8dee6b71, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, network: tcp}
-  - {name: CN_speednode_0047, server: xibaozi.19890604.day, port: 10847, type: trojan, udp: true, password: 607af48e-eeb4-4785-97e7-985b79355342, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, network: tcp}
-  - {name: CN_speednode_0048, server: xibaozi.19890604.day, port: 10839, type: trojan, udp: true, password: 607af48e-eeb4-4785-97e7-985b79355342, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, network: tcp}
-  - {name: CN_speednode_0049, server: xibaozi.19890604.day, port: 10849, type: trojan, udp: true, password: 607af48e-eeb4-4785-97e7-985b79355342, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, network: tcp}
-  - {name: CN_speednode_0050, server: 183.236.51.7, port: 10823, type: trojan, udp: true, password: 80211d74-f75b-43ee-bb8f-bd534868cc59, skip-cert-verify: true, network: tcp}
-  - {name: CN_speednode_0051, server: 183.236.51.7, port: 10819, type: trojan, udp: true, password: 80211d74-f75b-43ee-bb8f-bd534868cc59, skip-cert-verify: true, network: tcp}
-  - {name: CN_speednode_0052, server: tiananmen.19890604.day, port: 10806, type: trojan, udp: true, password: 325c7b78-d1ba-4969-8b3b-b81054de80a0, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, network: tcp}
-  - {name: CN_speednode_0053, server: tiananmen.19890604.day, port: 10808, type: trojan, udp: true, password: 325c7b78-d1ba-4969-8b3b-b81054de80a0, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, network: tcp}
-  - {name: CN_speednode_0054, server: tiananmen.19890604.day, port: 10804, type: trojan, udp: true, password: 325c7b78-d1ba-4969-8b3b-b81054de80a0, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, network: tcp}
-  - {name: CN_speednode_0055, server: tiananmen.19890604.day, port: 10802, type: trojan, udp: true, password: 325c7b78-d1ba-4969-8b3b-b81054de80a0, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, network: tcp}
-  - {name: CN_speednode_0056, server: tiananmen.19890604.day, port: 10810, type: trojan, udp: true, password: 325c7b78-d1ba-4969-8b3b-b81054de80a0, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, network: tcp}
-  - {name: CN_speednode_0057, server: ppg-sg.05xuzdqs5j.com, port: 10832, type: trojan, udp: true, password: fd0bdc3a-d4e7-42a3-8400-72db8dee6b71, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, network: tcp}
-  - {name: CN_speednode_0058, server: ppg-sg.05xuzdqs5j.com, port: 10828, type: trojan, udp: true, password: fd0bdc3a-d4e7-42a3-8400-72db8dee6b71, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, network: tcp}
-  - {name: CN_speednode_0059, server: ppg-sg.05xuzdqs5j.com, port: 10834, type: trojan, udp: true, password: fd0bdc3a-d4e7-42a3-8400-72db8dee6b71, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, network: tcp}
-  - {name: CN_speednode_0060, server: ppg-sg.05xuzdqs5j.com, port: 10830, type: trojan, udp: true, password: fd0bdc3a-d4e7-42a3-8400-72db8dee6b71, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, network: tcp}
-  - {name: CN_speednode_0061, server: tank.19890604.day, port: 10828, type: trojan, udp: true, password: 325c7b78-d1ba-4969-8b3b-b81054de80a0, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, network: tcp}
-  - {name: CN_speednode_0062, server: ppg-jp.05xuzdqs5j.com, port: 10812, type: trojan, udp: true, password: fd0bdc3a-d4e7-42a3-8400-72db8dee6b71, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, network: tcp}
-  - {name: CN_speednode_0063, server: tank.19890604.day, port: 10832, type: trojan, udp: true, password: 325c7b78-d1ba-4969-8b3b-b81054de80a0, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, network: tcp}
-  - {name: CN_speednode_0064, server: tank.19890604.day, port: 10830, type: trojan, udp: true, password: 325c7b78-d1ba-4969-8b3b-b81054de80a0, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, network: tcp}
-  - {name: CN_speednode_0065, server: tank.19890604.day, port: 10834, type: trojan, udp: true, password: 325c7b78-d1ba-4969-8b3b-b81054de80a0, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, network: tcp}
-  - {name: CN_speednode_0066, server: ppg-jp.05xuzdqs5j.com, port: 10816, type: trojan, udp: true, password: fd0bdc3a-d4e7-42a3-8400-72db8dee6b71, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, network: tcp}
-  - {name: CN_speednode_0067, server: ppg-jp.05xuzdqs5j.com, port: 10814, type: trojan, udp: true, password: fd0bdc3a-d4e7-42a3-8400-72db8dee6b71, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, network: tcp}
-  - {name: CN_speednode_0068, server: xijinping.19890604.day, port: 10814, type: trojan, udp: true, password: 325c7b78-d1ba-4969-8b3b-b81054de80a0, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, network: tcp}
-  - {name: CN_speednode_0069, server: xijinping.19890604.day, port: 10818, type: trojan, udp: true, password: 325c7b78-d1ba-4969-8b3b-b81054de80a0, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, network: tcp}
-  - {name: CN_speednode_0070, server: ppg-jp.05xuzdqs5j.com, port: 10818, type: trojan, udp: true, password: fd0bdc3a-d4e7-42a3-8400-72db8dee6b71, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, network: tcp}
-  - {name: CN_speednode_0071, server: xijinping.19890604.day, port: 10816, type: trojan, udp: true, password: 325c7b78-d1ba-4969-8b3b-b81054de80a0, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, network: tcp}
-  - {name: CN_speednode_0072, server: xijinping.19890604.day, port: 10812, type: trojan, udp: true, password: 325c7b78-d1ba-4969-8b3b-b81054de80a0, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, network: tcp}
-  - {name: CN_speednode_0073, server: xibaozi.19890604.day, port: 10835, type: trojan, udp: true, password: 325c7b78-d1ba-4969-8b3b-b81054de80a0, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, network: tcp}
-  - {name: CN_speednode_0074, server: ppg-us.05xuzdqs5j.com, port: 10822, type: trojan, udp: true, password: fd0bdc3a-d4e7-42a3-8400-72db8dee6b71, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, network: tcp}
-  - {name: CN_speednode_0075, server: ppg-us.05xuzdqs5j.com, port: 10826, type: trojan, udp: true, password: fd0bdc3a-d4e7-42a3-8400-72db8dee6b71, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, network: tcp}
-  - {name: CN_speednode_0076, server: ppg-us.05xuzdqs5j.com, port: 10820, type: trojan, udp: true, password: fd0bdc3a-d4e7-42a3-8400-72db8dee6b71, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, network: tcp}
-  - {name: CN_speednode_0077, server: ppg-us.05xuzdqs5j.com, port: 10824, type: trojan, udp: true, password: fd0bdc3a-d4e7-42a3-8400-72db8dee6b71, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, network: tcp}
-  - {name: CN_speednode_0078, server: falungong.19890604.day, port: 10820, type: trojan, udp: true, password: 325c7b78-d1ba-4969-8b3b-b81054de80a0, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, network: tcp}
-  - {name: CN_speednode_0079, server: falungong.19890604.day, port: 10822, type: trojan, udp: true, password: 325c7b78-d1ba-4969-8b3b-b81054de80a0, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, network: tcp}
-  - {name: CN_speednode_0080, server: falungong.19890604.day, port: 10824, type: trojan, udp: true, password: 325c7b78-d1ba-4969-8b3b-b81054de80a0, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, network: tcp}
-  - {name: CN_speednode_0081, server: 183.236.51.7, port: 10807, type: trojan, password: 0ee97fff-3bcf-496f-a7ea-1ff6496baac0, skip-cert-verify: true, udp: true}
-  - {name: CN_speednode_0082, server: tiananmen.19890604.day, port: 10804, type: trojan, password: 80211d74-f75b-43ee-bb8f-bd534868cc59, skip-cert-verify: false, sni: cloudflare.node-ssl.cdn-alibaba.com}
-  - {name: CN_speednode_0083, server: 183.236.51.7, port: 10808, type: trojan, password: 0ee97fff-3bcf-496f-a7ea-1ff6496baac0, skip-cert-verify: true, udp: true}
-  - {name: CN_speednode_0084, server: tiananmen.19890604.day, port: 10808, type: trojan, password: 80211d74-f75b-43ee-bb8f-bd534868cc59, skip-cert-verify: false, sni: cloudflare.node-ssl.cdn-alibaba.com}
-  - {name: CN_speednode_0085, server: 183.236.51.7, port: 10834, type: trojan, password: 0ee97fff-3bcf-496f-a7ea-1ff6496baac0, skip-cert-verify: true, udp: true}
-  - {name: CN_speednode_0086, server: xibaozi.19890604.day, port: 10840, type: trojan, password: 80211d74-f75b-43ee-bb8f-bd534868cc59, skip-cert-verify: false, sni: cloudflare.node-ssl.cdn-alibaba.com}
-  - {name: CN_speednode_0087, server: 183.236.51.7, port: 10835, type: trojan, password: 0ee97fff-3bcf-496f-a7ea-1ff6496baac0, skip-cert-verify: true, udp: true}
-  - {name: CN_speednode_0088, server: xijinping.19890604.day, port: 10816, type: trojan, password: 80211d74-f75b-43ee-bb8f-bd534868cc59, skip-cert-verify: false, sni: cloudflare.node-ssl.cdn-alibaba.com}
-  - {name: CN_speednode_0089, server: 183.236.51.6, port: 10801, type: trojan, password: aa002102-5e81-4c47-ba3c-f78ebbfa0d59, skip-cert-verify: true, udp: true}
-  - {name: CN_speednode_0090, server: 183.236.51.7, port: 10806, type: trojan, password: aa002102-5e81-4c47-ba3c-f78ebbfa0d59, skip-cert-verify: true, udp: true}
-  - {name: CN_speednode_0091, server: 04.kccic2pa.xyz, port: 50004, type: vmess, alterId: 0, cipher: auto, country: 🇨🇳CN, h2-opts: {}, http-opts: {}, network: tcp, uuid: 1d8963ab-0cd8-4091-93ca-4c6a7dbcd1f2}
-  - {name: CN_speednode_0092, server: 183.236.51.7, port: 10807, type: trojan, password: aa002102-5e81-4c47-ba3c-f78ebbfa0d59, skip-cert-verify: true, udp: true}
-  - {name: CN_speednode_0093, server: 183.236.51.7, port: 10807, type: trojan, network: tcp, password: aa002102-5e81-4c47-ba3c-f78ebbfa0d59, skip-cert-verify: true, sni: cloudflare.node-ssl.cdn-alibaba.com, udp: true}
-  - {name: CN_speednode_0094, server: xibaozi.19890604.day, port: 10839, type: trojan, password: 80211d74-f75b-43ee-bb8f-bd534868cc59, skip-cert-verify: false, sni: cloudflare.node-ssl.cdn-alibaba.com}
-  - {name: CN_speednode_0095, server: 106.75.26.66, port: 17070, type: socks5, client-fingerprint: chrome, skip-cert-verify: true, udp: true}
-  - {name: CN_speednode_0096, server: tiananmen.19890604.day, port: 10802, type: trojan, password: 80211d74-f75b-43ee-bb8f-bd534868cc59, skip-cert-verify: false, sni: cloudflare.node-ssl.cdn-alibaba.com}
-  - {name: CN_speednode_0097, server: 183.236.51.7, port: 10834, type: trojan, password: aa002102-5e81-4c47-ba3c-f78ebbfa0d59, skip-cert-verify: true}
-  - {name: DE_speednode_0098, server: 92.223.124.24, port: 443, type: vmess, country: 🇩🇪DE, uuid: 29205f25-691a-4c09-87f6-bb917511b434, alterId: 0, cipher: auto, network: ws, servername: sabziran.serveminecraft.net, http-opts: {}, h2-opts: {}, tls: true, skip-cert-verify: true, ws-opts: {path: /@forwardv2ray, headers: {HOST: sabziran.serveminecraft.net}}, delay: 1813}
-  - {name: GB_speednode_0099, server: 93.123.11.11, port: 443, type: vmess, alterId: 0, cipher: auto, network: ws, skip-cert-verify: true, tls: true, uuid: b85520c4-e377-4806-bc12-5be674fc4061, ws-opts: {headers: {host: yasdl900.redirectme.net}, path: /@forwardv2ray}}
-  - {name: HK_speednode_0100, server: 1.65.223.223, port: 443, type: ss, password: a-wym4ovY4Yw, cipher: aes-128-gcm, plugin: v2ray-plugin, plugin-opts: {host: "", mode: websocket, mux: true, path: "", skip-cert-verify: true, tls: false}, delay: 591}
-  - {name: HK_speednode_0101, server: 1.65.139.54, port: 443, type: ss, cipher: aes-128-gcm, password: a-wym4ovY4Yw, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: "", path: "", tls: false, mux: true}, delay: 1724}
-  - {name: SG_speednode_0102, server: 146.190.105.144, port: 42766, type: trojan, password: Fn4rFdIWwW, sni: m.zoom.us, skip-cert-verify: true, udp: true}
-  - {name: SG_speednode_0103, server: 146.190.105.144, port: 42766, type: trojan, password: Fn4rFdIWwW, skip-cert-verify: true}
-  - {name: TR_speednode_0104, server: 185.123.101.241, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: US_speednode_0105, server: mtn.cpionline.cc, port: 443, type: vmess, alpn: [h2], alterId: 0, cipher: chacha20-poly1305, client-fingerprint: chrome, grpc-opts: {grpc-mode: gun, grpc-service-name: Nbs2DSTSkFWe4KVnk9AHQv}, network: grpc, servername: hdfy5c1.foriran.me, skip-cert-verify: true, tls: true, udp: true, uuid: 251780c1-1501-43b3-be2a-d144a20d479a}
-  - {name: US_speednode_0106, server: 172.67.183.5, port: 443, type: vmess, alpn: [h2], alterId: 0, cipher: chacha20-poly1305, client-fingerprint: chrome, grpc-opts: {grpc-mode: gun, grpc-service-name: Nbs2DSTSkFWe4KVnk9AHQv}, network: grpc, servername: hdfy5c1.foriran.me, skip-cert-verify: true, tls: true, udp: true, uuid: 251780c1-1501-43b3-be2a-d144a20d479a}
-  - {name: US_speednode_0107, server: www.darkroom.lol, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.darkroom.lol}}, udp: true}
-  - {name: US_speednode_0108, server: www.crispyrainbow.biz, port: 8080, type: vmess, cipher: chacha20-poly1305, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, tls: false, skip-cert-verify: true, servername: "", network: ws, ws-opts: {path: /}}
-  - {name: US_speednode_0109, server: www.blueberrywindow.online, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.blueberrywindow.online}}}
+  - {name: AL_speednode_0001, server: 31.171.153.182, port: 989, type: ss, cipher: aes-256-cfb, country: 🇦🇱AL, password: f8f7aCzcPKbsF8p3}
+  - {name: CN_speednode_0002, server: tiananmen.19890604.day, port: 10802, type: trojan, password: 80211d74-f75b-43ee-bb8f-bd534868cc59, skip-cert-verify: false, sni: cloudflare.node-ssl.cdn-alibaba.com}
+  - {name: CN_speednode_0003, server: tiananmen.19890604.day, port: 10806, type: trojan, country: 🇨🇳CN, password: e037a7ea-79fc-4dba-a351-d27afef5cb11, skip-cert-verify: true, sni: tiananmen.19890604.day, udp: true}
+  - {name: CN_speednode_0004, server: tiananmen.19890604.day, port: 10806, type: trojan, password: 80211d74-f75b-43ee-bb8f-bd534868cc59, skip-cert-verify: false, sni: cloudflare.node-ssl.cdn-alibaba.com}
+  - {name: CN_speednode_0005, server: tiananmen.19890604.day, port: 10803, type: trojan, password: 80211d74-f75b-43ee-bb8f-bd534868cc59, skip-cert-verify: false, sni: cloudflare.node-ssl.cdn-alibaba.com}
+  - {name: CN_speednode_0006, server: 106.75.26.66, port: 17070, type: socks5, client-fingerprint: chrome, skip-cert-verify: true, udp: true}
+  - {name: CN_speednode_0007, server: tiananmen.19890604.day, port: 10804, type: trojan, password: 80211d74-f75b-43ee-bb8f-bd534868cc59, skip-cert-verify: false, sni: cloudflare.node-ssl.cdn-alibaba.com}
+  - {name: CN_speednode_0008, server: tank.19890604.day, port: 10827, type: trojan, password: 329d1d2a-c4f5-471d-abd3-3f6f234947bb, skip-cert-verify: true, sni: cloudflare.node-ssl.cdn-alibaba.com, udp: true}
+  - {name: CN_speednode_0009, server: dnspsdhaitun.ncsuwei.top, port: 12002, type: vmess, alterId: 0, cipher: auto, network: ws, skip-cert-verify: true, tls: false, udp: true, uuid: be13e68d-b85d-3c5f-95a5-01e5fad49fa5, ws-opts: {headers: {Host: dnspsdhaitun.ncsuwei.top}, path: /12e884bf-1622-7ceb-3009-7d47fd1322f9a5}}
+  - {name: CN_speednode_0010, server: tiananmen.19890604.day, port: 10809, type: trojan, password: 80211d74-f75b-43ee-bb8f-bd534868cc59, skip-cert-verify: false, sni: cloudflare.node-ssl.cdn-alibaba.com}
+  - {name: CN_speednode_0011, server: tiananmen.19890604.day, port: 10809, type: trojan, password: 329d1d2a-c4f5-471d-abd3-3f6f234947bb, skip-cert-verify: false, sni: cloudflare.node-ssl.cdn-alibaba.com}
+  - {name: CN_speednode_0012, server: tiananmen.19890604.day, port: 10810, type: trojan, password: 80211d74-f75b-43ee-bb8f-bd534868cc59, skip-cert-verify: false, sni: cloudflare.node-ssl.cdn-alibaba.com}
+  - {name: CN_speednode_0013, server: xibaozi.19890604.day, port: 10840, type: trojan, password: 80211d74-f75b-43ee-bb8f-bd534868cc59, skip-cert-verify: false, sni: cloudflare.node-ssl.cdn-alibaba.com}
+  - {name: CN_speednode_0014, server: xibaozi.19890604.day, port: 10835, type: trojan, password: 80211d74-f75b-43ee-bb8f-bd534868cc59, skip-cert-verify: false, sni: cloudflare.node-ssl.cdn-alibaba.com}
+  - {name: CN_speednode_0015, server: xijinping.19890604.day, port: 10812, type: trojan, password: 329d1d2a-c4f5-471d-abd3-3f6f234947bb, skip-cert-verify: false, sni: cloudflare.node-ssl.cdn-alibaba.com}
+  - {name: CN_speednode_0016, server: xijinping.19890604.day, port: 10817, type: trojan, password: 329d1d2a-c4f5-471d-abd3-3f6f234947bb, skip-cert-verify: false, sni: cloudflare.node-ssl.cdn-alibaba.com}
+  - {name: CN_speednode_0017, server: xijinping.19890604.day, port: 10811, type: trojan, password: 329d1d2a-c4f5-471d-abd3-3f6f234947bb, skip-cert-verify: true, sni: cloudflare.node-ssl.cdn-alibaba.com, udp: true}
+  - {name: CN_speednode_0018, server: 183.236.51.6, port: 10817, type: trojan, password: 4638c1c1-e262-4cfe-acb0-3ac5fc8d3e52, skip-cert-verify: true, udp: true}
+  - {name: CN_speednode_0019, server: xijinping.19890604.day, port: 10812, type: trojan, password: 80211d74-f75b-43ee-bb8f-bd534868cc59, skip-cert-verify: false, sni: cloudflare.node-ssl.cdn-alibaba.com}
+  - {name: CN_speednode_0020, server: xijinping.19890604.day, port: 10816, type: trojan, password: 80211d74-f75b-43ee-bb8f-bd534868cc59, skip-cert-verify: false, sni: cloudflare.node-ssl.cdn-alibaba.com}
+  - {name: CN_speednode_0021, server: xijinping.19890604.day, port: 10815, type: trojan, password: 80211d74-f75b-43ee-bb8f-bd534868cc59, skip-cert-verify: false, sni: cloudflare.node-ssl.cdn-alibaba.com}
+  - {name: CN_speednode_0022, server: xibaozi.19890604.day, port: 10841, type: trojan, password: 80211d74-f75b-43ee-bb8f-bd534868cc59, skip-cert-verify: false, sni: cloudflare.node-ssl.cdn-alibaba.com}
+  - {name: CN_speednode_0023, server: xijinping.19890604.day, port: 10811, type: trojan, password: 80211d74-f75b-43ee-bb8f-bd534868cc59, skip-cert-verify: false, sni: cloudflare.node-ssl.cdn-alibaba.com}
+  - {name: CN_speednode_0024, server: xijinping.19890604.day, port: 10813, type: trojan, password: 80211d74-f75b-43ee-bb8f-bd534868cc59, skip-cert-verify: false, sni: cloudflare.node-ssl.cdn-alibaba.com}
+  - {name: CN_speednode_0025, server: tiananmen.19890604.day, port: 10808, type: trojan, password: 329d1d2a-c4f5-471d-abd3-3f6f234947bb, skip-cert-verify: false, sni: cloudflare.node-ssl.cdn-alibaba.com}
+  - {name: CN_speednode_0026, server: xijinping.19890604.day, port: 10818, type: trojan, password: 80211d74-f75b-43ee-bb8f-bd534868cc59, skip-cert-verify: false, sni: cloudflare.node-ssl.cdn-alibaba.com}
+  - {name: CN_speednode_0027, server: xibaozi.19890604.day, port: 10836, type: trojan, password: 80211d74-f75b-43ee-bb8f-bd534868cc59, skip-cert-verify: false, sni: cloudflare.node-ssl.cdn-alibaba.com}
+  - {name: CN_speednode_0028, server: 04.kccic2pa.xyz, port: 50004, type: vmess, alterId: 0, cipher: auto, servername: alibaba-node.cn, skip-cert-verify: true, tls: false, uuid: 1d8963ab-0cd8-4091-93ca-4c6a7dbcd1f2}
+  - {name: CN_speednode_0029, server: falungong.19890604.day, port: 10823, type: trojan, password: 329d1d2a-c4f5-471d-abd3-3f6f234947bb, sni: cloudflare.node-ssl.cdn-alibaba.com}
+  - {name: CN_speednode_0030, server: 04.kccic2pa.xyz, port: 50004, type: vmess, alterId: 0, cipher: auto, country: 🇨🇳CN, h2-opts: {}, http-opts: {}, network: tcp, uuid: 1d8963ab-0cd8-4091-93ca-4c6a7dbcd1f2}
+  - {name: CN_speednode_0031, server: 04.kccic2pa.xyz, port: 50004, type: vmess, alterId: 0, cipher: auto, skip-cert-verify: true, tls: false, udp: true, uuid: 1d8963ab-0cd8-4091-93ca-4c6a7dbcd1f2}
+  - {name: CN_speednode_0032, server: xibaozi.19890604.day, port: 10839, type: trojan, password: 80211d74-f75b-43ee-bb8f-bd534868cc59, skip-cert-verify: false, sni: cloudflare.node-ssl.cdn-alibaba.com}
+  - {name: CN_speednode_0033, server: xibaozi.19890604.day, port: 10849, type: trojan, password: 329d1d2a-c4f5-471d-abd3-3f6f234947bb, skip-cert-verify: false, sni: cloudflare.node-ssl.cdn-alibaba.com}
+  - {name: CN_speednode_0034, server: xibaozi.19890604.day, port: 10849, type: trojan, password: 80211d74-f75b-43ee-bb8f-bd534868cc59, skip-cert-verify: false, sni: cloudflare.node-ssl.cdn-alibaba.com}
+  - {name: CN_speednode_0035, server: tiananmen.19890604.day, port: 10802, type: trojan, password: 80211d74-f75b-43ee-bb8f-bd534868cc59, sni: tiananmen.19890604.day, skip-cert-verify: true, udp: true}
+  - {name: CN_speednode_0036, server: tiananmen.19890604.day, port: 10806, type: trojan, password: 80211d74-f75b-43ee-bb8f-bd534868cc59, sni: tiananmen.19890604.day, skip-cert-verify: true, udp: true}
+  - {name: CN_speednode_0037, server: tiananmen.19890604.day, port: 10804, type: trojan, password: 80211d74-f75b-43ee-bb8f-bd534868cc59, sni: tiananmen.19890604.day, skip-cert-verify: true, udp: true}
+  - {name: CN_speednode_0038, server: tiananmen.19890604.day, port: 10803, type: trojan, password: 80211d74-f75b-43ee-bb8f-bd534868cc59, sni: tiananmen.19890604.day, skip-cert-verify: true, udp: true}
+  - {name: CN_speednode_0039, server: tank.19890604.day, port: 10827, type: trojan, password: 329d1d2a-c4f5-471d-abd3-3f6f234947bb, sni: tank.19890604.day, skip-cert-verify: true, udp: true}
+  - {name: CN_speednode_0040, server: xibaozi.19890604.day, port: 10840, type: trojan, password: 80211d74-f75b-43ee-bb8f-bd534868cc59, sni: xibaozi.19890604.day, skip-cert-verify: true, udp: true}
+  - {name: CN_speednode_0041, server: tiananmen.19890604.day, port: 10809, type: trojan, password: 80211d74-f75b-43ee-bb8f-bd534868cc59, sni: tiananmen.19890604.day, skip-cert-verify: true, udp: true}
+  - {name: CN_speednode_0042, server: xibaozi.19890604.day, port: 10835, type: trojan, password: 80211d74-f75b-43ee-bb8f-bd534868cc59, sni: xibaozi.19890604.day, skip-cert-verify: true, udp: true}
+  - {name: CN_speednode_0043, server: tiananmen.19890604.day, port: 10809, type: trojan, password: 329d1d2a-c4f5-471d-abd3-3f6f234947bb, sni: tiananmen.19890604.day, skip-cert-verify: true, udp: true}
+  - {name: CN_speednode_0044, server: xijinping.19890604.day, port: 10817, type: trojan, password: 329d1d2a-c4f5-471d-abd3-3f6f234947bb, sni: xijinping.19890604.day, skip-cert-verify: true, udp: true}
+  - {name: CN_speednode_0045, server: xijinping.19890604.day, port: 10811, type: trojan, password: 329d1d2a-c4f5-471d-abd3-3f6f234947bb, sni: xijinping.19890604.day, skip-cert-verify: true, udp: true}
+  - {name: CN_speednode_0046, server: tiananmen.19890604.day, port: 10808, type: trojan, password: 329d1d2a-c4f5-471d-abd3-3f6f234947bb, sni: tiananmen.19890604.day, skip-cert-verify: true, udp: true}
+  - {name: CN_speednode_0047, server: tiananmen.19890604.day, port: 10810, type: trojan, password: 80211d74-f75b-43ee-bb8f-bd534868cc59, sni: tiananmen.19890604.day, skip-cert-verify: true, udp: true}
+  - {name: CN_speednode_0048, server: xijinping.19890604.day, port: 10812, type: trojan, password: 329d1d2a-c4f5-471d-abd3-3f6f234947bb, sni: xijinping.19890604.day, skip-cert-verify: true, udp: true}
+  - {name: CN_speednode_0049, server: xijinping.19890604.day, port: 10816, type: trojan, password: 80211d74-f75b-43ee-bb8f-bd534868cc59, sni: xijinping.19890604.day, skip-cert-verify: true, udp: true}
+  - {name: CN_speednode_0050, server: xijinping.19890604.day, port: 10812, type: trojan, password: 80211d74-f75b-43ee-bb8f-bd534868cc59, sni: xijinping.19890604.day, skip-cert-verify: true, udp: true}
+  - {name: CN_speednode_0051, server: xijinping.19890604.day, port: 10815, type: trojan, password: 80211d74-f75b-43ee-bb8f-bd534868cc59, sni: xijinping.19890604.day, skip-cert-verify: true, udp: true}
+  - {name: CN_speednode_0052, server: xibaozi.19890604.day, port: 10841, type: trojan, password: 80211d74-f75b-43ee-bb8f-bd534868cc59, sni: xibaozi.19890604.day, skip-cert-verify: true, udp: true}
+  - {name: CN_speednode_0053, server: xijinping.19890604.day, port: 10818, type: trojan, password: 80211d74-f75b-43ee-bb8f-bd534868cc59, sni: xijinping.19890604.day, skip-cert-verify: true, udp: true}
+  - {name: CN_speednode_0054, server: 183.236.51.7, port: 10806, type: trojan, password: aa002102-5e81-4c47-ba3c-f78ebbfa0d59, skip-cert-verify: true, udp: true}
+  - {name: CN_speednode_0055, server: xijinping.19890604.day, port: 10813, type: trojan, password: 80211d74-f75b-43ee-bb8f-bd534868cc59, sni: xijinping.19890604.day, skip-cert-verify: true, udp: true}
+  - {name: CN_speednode_0056, server: xijinping.19890604.day, port: 10811, type: trojan, password: 80211d74-f75b-43ee-bb8f-bd534868cc59, sni: xijinping.19890604.day, skip-cert-verify: true, udp: true}
+  - {name: CN_speednode_0057, server: xibaozi.19890604.day, port: 10836, type: trojan, password: 80211d74-f75b-43ee-bb8f-bd534868cc59, sni: xibaozi.19890604.day, skip-cert-verify: true, udp: true}
+  - {name: CN_speednode_0058, server: falungong.19890604.day, port: 10823, type: trojan, password: 329d1d2a-c4f5-471d-abd3-3f6f234947bb, sni: falungong.19890604.day, skip-cert-verify: true, udp: true}
+  - {name: CN_speednode_0059, server: 183.236.51.7, port: 10808, type: trojan, password: aa002102-5e81-4c47-ba3c-f78ebbfa0d59, skip-cert-verify: true, udp: true}
+  - {name: CN_speednode_0060, server: xibaozi.19890604.day, port: 10839, type: trojan, password: 80211d74-f75b-43ee-bb8f-bd534868cc59, sni: xibaozi.19890604.day, skip-cert-verify: true, udp: true}
+  - {name: CN_speednode_0061, server: xibaozi.19890604.day, port: 10849, type: trojan, password: 329d1d2a-c4f5-471d-abd3-3f6f234947bb, sni: xibaozi.19890604.day, skip-cert-verify: true, udp: true}
+  - {name: CN_speednode_0062, server: xibaozi.19890604.day, port: 10849, type: trojan, password: 80211d74-f75b-43ee-bb8f-bd534868cc59, sni: xibaozi.19890604.day, skip-cert-verify: true, udp: true}
+  - {name: CZ_speednode_0063, server: cz1-vmess.sshmax.xyz, port: 80, type: vmess, uuid: ef7cfdf6-63e1-4307-bb61-40eb81acb5bd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: cz1-vmess.sshmax.xyz, network: ws, ws-opts: {path: /vmess, headers: {Host: cz1-vmess.sshmax.xyz}}, udp: true}
+  - {name: CZ_speednode_0064, server: cz1-vmess.sshmax.xyz, port: 80, type: vmess, alterId: 0, cipher: auto, country: 🇲🇩MD, h2-opts: {}, http-opts: {}, network: ws, servername: cz1-vmess.sshmax.xyz, skip-cert-verify: true, uuid: ef7cfdf6-63e1-4307-bb61-40eb81acb5bd, ws-opts: {headers: {HOST: cz1-vmess.sshmax.xyz}, path: /vmess}}
+  - {name: CZ_speednode_0065, server: cz1-vmess.sshmax.xyz, port: 80, type: vmess, alterId: 0, cipher: auto, network: ws, skip-cert-verify: true, uuid: ef7cfdf6-63e1-4307-bb61-40eb81acb5bd, ws-opts: {headers: {Host: cz1-vmess.sshmax.xyz}, path: /vmess}}
+  - {name: CZ_speednode_0066, server: 94.131.97.123, port: 80, type: vmess, alterId: 0, cipher: auto, network: ws, skip-cert-verify: true, uuid: ef7cfdf6-63e1-4307-bb61-40eb81acb5bd, ws-opts: {headers: {Host: cz1-vmess.sshmax.xyz}, path: /vmess}}
+  - {name: DE_speednode_0067, server: 92.223.124.23, port: 443, type: vmess, cipher: auto, uuid: b543de01-18e8-43dc-92fc-1e46e2cdbb7d, alterId: 0, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /@forwardv2ray, headers: {host: majazi.zapto.org}}}
+  - {name: DE_speednode_0068, server: 92.223.124.24, port: 443, type: vmess, country: 🇩🇪DE, uuid: 29205f25-691a-4c09-87f6-bb917511b434, alterId: 0, cipher: auto, network: ws, servername: sabziran.serveminecraft.net, http-opts: {}, h2-opts: {}, tls: true, skip-cert-verify: true, ws-opts: {path: /@forwardv2ray, headers: {HOST: sabziran.serveminecraft.net}}, delay: 1813}
+  - {name: GB_speednode_0070, server: java.ct.arvancode.eu.Org, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: W74XFALLLuw6m5IA, udp: true}
+  - {name: GB_speednode_0071, server: series-a2.samanehha.co, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: FzBnWpFK3Dw5lYMC, udp: true}
+  - {name: GR_speednode_0072, server: 185.242.84.49, port: 80, type: vmess, uuid: 9db34944-bc87-43cb-8b57-45cf87b2b006, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, udp: true, ws-opts: {path: /vmess, headers: {Host: 185.242.84.49}}}
+  - {name: HK_speednode_0073, server: 1.65.223.223, port: 443, type: ss, cipher: aes-128-gcm, password: a-wym4ovY4Yw, plugin: v2ray-plugin, plugin-opts: {host: "", mode: websocket, mux: true, path: "", skip-cert-verify: true, tls: false}}
+  - {name: HK_speednode_0074, server: 1.65.139.54, port: 443, type: ss, cipher: aes-128-gcm, password: a-wym4ovY4Yw, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: "", path: "", tls: false, mux: true}, delay: 989}
+  - {name: IL_speednode_0075, server: 64.176.162.24, port: 443, type: trojan, password: wkmY1R4EcP, skip-cert-verify: true, udp: true}
+  - {name: IN_speednode_0076, server: 64.227.158.174, port: 443, type: trojan, password: BrOu4OcEX9, skip-cert-verify: true, udp: true}
+  - {name: JP_speednode_0077, server: 172.233.83.6, port: 443, type: trojan, password: ae31f892-733f-44d5-b581-c514972aa7c2, skip-cert-verify: true, udp: true}
+  - {name: KR_speednode_0078, server: p236.panda004.net, port: 58023, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
+  - {name: NL_speednode_0079, server: 93.123.17.142, port: 443, type: vmess, country: 🇳🇱NL, uuid: 7682b778-b64b-408b-8fb2-61d7c7fc43e5, alterId: 0, cipher: auto, network: ws, servername: soft8989.redirectme.net, http-opts: {}, h2-opts: {}, tls: true, skip-cert-verify: true, ws-opts: {path: /@forwardv2ray, headers: {HOST: soft8989.redirectme.net}}, delay: 1650}
+  - {name: PT_speednode_0080, server: pt2-vmess.sshmax.xyz, port: 80, type: vmess, uuid: 099b5b7a-9d71-43cd-80e3-b8fbe1cc2695, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, udp: true, ws-opts: {path: /vmess, headers: {Host: pt2-vmess.sshmax.xyz}}}
+  - {name: PT_speednode_0081, server: 94.131.10.135, port: 80, type: vmess, uuid: 099b5b7a-9d71-43cd-80e3-b8fbe1cc2695, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, udp: true, ws-opts: {path: /vmess, headers: {Host: 94.131.10.135}}}
+  - {name: SG_speednode_0082, server: 13.250.25.60, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: SG_speednode_0083, server: 146.190.106.34, port: 52625, type: trojan, password: wIcY2HF0g8, sni: m.zoom.us, skip-cert-verify: true, udp: true}
+  - {name: SG_speednode_0084, server: 146.190.106.34, port: 34696, type: trojan, password: K74nEUhKp9, sni: android.googleapis.com, skip-cert-verify: true, udp: true}
+  - {name: SG_speednode_0085, server: 146.190.106.34, port: 52625, type: trojan, password: wIcY2HF0g8, skip-cert-verify: true, udp: true}
+  - {name: SG_speednode_0086, server: 146.190.106.34, port: 44069, type: trojan, password: l7I7dNCvS0, skip-cert-verify: true, udp: true}
+  - {name: SG_speednode_0087, server: 146.190.106.34, port: 34696, type: trojan, password: K74nEUhKp9, skip-cert-verify: true, udp: true}
+  - {name: SG_speednode_0088, server: 146.190.106.34, port: 29286, type: trojan, password: EQEaONr43j, skip-cert-verify: true, udp: true}
+  - {name: TR_speednode_0089, server: 185.123.101.241, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
 proxy-groups:
 - name: Proxy
   type: select
   proxies:
   - ♻️ automatic
   - AL_speednode_0001
-  - CA_speednode_0002
+  - CN_speednode_0002
   - CN_speednode_0003
   - CN_speednode_0004
   - CN_speednode_0005
@@ -178,58 +157,37 @@ proxy-groups:
   - CN_speednode_0060
   - CN_speednode_0061
   - CN_speednode_0062
-  - CN_speednode_0063
-  - CN_speednode_0064
-  - CN_speednode_0065
-  - CN_speednode_0066
-  - CN_speednode_0067
-  - CN_speednode_0068
-  - CN_speednode_0069
-  - CN_speednode_0070
-  - CN_speednode_0071
-  - CN_speednode_0072
-  - CN_speednode_0073
-  - CN_speednode_0074
-  - CN_speednode_0075
-  - CN_speednode_0076
-  - CN_speednode_0077
-  - CN_speednode_0078
-  - CN_speednode_0079
-  - CN_speednode_0080
-  - CN_speednode_0081
-  - CN_speednode_0082
-  - CN_speednode_0083
-  - CN_speednode_0084
-  - CN_speednode_0085
-  - CN_speednode_0086
-  - CN_speednode_0087
-  - CN_speednode_0088
-  - CN_speednode_0089
-  - CN_speednode_0090
-  - CN_speednode_0091
-  - CN_speednode_0092
-  - CN_speednode_0093
-  - CN_speednode_0094
-  - CN_speednode_0095
-  - CN_speednode_0096
-  - CN_speednode_0097
-  - DE_speednode_0098
-  - GB_speednode_0099
-  - HK_speednode_0100
-  - HK_speednode_0101
-  - SG_speednode_0102
-  - SG_speednode_0103
-  - TR_speednode_0104
-  - US_speednode_0105
-  - US_speednode_0106
-  - US_speednode_0107
-  - US_speednode_0108
-  - US_speednode_0109
+  - CZ_speednode_0063
+  - CZ_speednode_0064
+  - CZ_speednode_0065
+  - CZ_speednode_0066
+  - DE_speednode_0067
+  - DE_speednode_0068
+  - GB_speednode_0070
+  - GB_speednode_0071
+  - GR_speednode_0072
+  - HK_speednode_0073
+  - HK_speednode_0074
+  - IL_speednode_0075
+  - IN_speednode_0076
+  - JP_speednode_0077
+  - KR_speednode_0078
+  - NL_speednode_0079
+  - PT_speednode_0080
+  - PT_speednode_0081
+  - SG_speednode_0082
+  - SG_speednode_0083
+  - SG_speednode_0084
+  - SG_speednode_0085
+  - SG_speednode_0086
+  - SG_speednode_0087
+  - SG_speednode_0088
+  - TR_speednode_0089
 - name: ♻️ automatic
   type: url-test
   proxies:
   - AL_speednode_0001
-  - CA_speednode_0002
+  - CN_speednode_0002
   - CN_speednode_0003
   - CN_speednode_0004
   - CN_speednode_0005
@@ -290,53 +248,32 @@ proxy-groups:
   - CN_speednode_0060
   - CN_speednode_0061
   - CN_speednode_0062
-  - CN_speednode_0063
-  - CN_speednode_0064
-  - CN_speednode_0065
-  - CN_speednode_0066
-  - CN_speednode_0067
-  - CN_speednode_0068
-  - CN_speednode_0069
-  - CN_speednode_0070
-  - CN_speednode_0071
-  - CN_speednode_0072
-  - CN_speednode_0073
-  - CN_speednode_0074
-  - CN_speednode_0075
-  - CN_speednode_0076
-  - CN_speednode_0077
-  - CN_speednode_0078
-  - CN_speednode_0079
-  - CN_speednode_0080
-  - CN_speednode_0081
-  - CN_speednode_0082
-  - CN_speednode_0083
-  - CN_speednode_0084
-  - CN_speednode_0085
-  - CN_speednode_0086
-  - CN_speednode_0087
-  - CN_speednode_0088
-  - CN_speednode_0089
-  - CN_speednode_0090
-  - CN_speednode_0091
-  - CN_speednode_0092
-  - CN_speednode_0093
-  - CN_speednode_0094
-  - CN_speednode_0095
-  - CN_speednode_0096
-  - CN_speednode_0097
-  - DE_speednode_0098
-  - GB_speednode_0099
-  - HK_speednode_0100
-  - HK_speednode_0101
-  - SG_speednode_0102
-  - SG_speednode_0103
-  - TR_speednode_0104
-  - US_speednode_0105
-  - US_speednode_0106
-  - US_speednode_0107
-  - US_speednode_0108
-  - US_speednode_0109
+  - CZ_speednode_0063
+  - CZ_speednode_0064
+  - CZ_speednode_0065
+  - CZ_speednode_0066
+  - DE_speednode_0067
+  - DE_speednode_0068
+  - GB_speednode_0070
+  - GB_speednode_0071
+  - GR_speednode_0072
+  - HK_speednode_0073
+  - HK_speednode_0074
+  - IL_speednode_0075
+  - IN_speednode_0076
+  - JP_speednode_0077
+  - KR_speednode_0078
+  - NL_speednode_0079
+  - PT_speednode_0080
+  - PT_speednode_0081
+  - SG_speednode_0082
+  - SG_speednode_0083
+  - SG_speednode_0084
+  - SG_speednode_0085
+  - SG_speednode_0086
+  - SG_speednode_0087
+  - SG_speednode_0088
+  - TR_speednode_0089
   url: https://www.google.com/favicon.ico
   interval: 300
 rules:

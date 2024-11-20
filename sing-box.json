@@ -87,50 +87,79 @@
         "auto",
         "direct",
         "AT_speednode_0001",
-        "CA_speednode_0002",
-        "CN_speednode_0003",
-        "CR_speednode_0004",
-        "EE_speednode_0005",
-        "GB_speednode_0006",
-        "JP_speednode_0007",
-        "LT_speednode_0008",
-        "LT_speednode_0009",
-        "LT_speednode_0010",
-        "LT_speednode_0011",
-        "LT_speednode_0012",
-        "LT_speednode_0013",
-        "LT_speednode_0014",
-        "LT_speednode_0015",
-        "LV_speednode_0016",
-        "NL_speednode_0017",
-        "NL_speednode_0018",
-        "PL_speednode_0019",
-        "RU_speednode_0020",
-        "RU_speednode_0021",
-        "SG_speednode_0022",
-        "US_speednode_0023",
-        "US_speednode_0024",
-        "US_speednode_0025",
-        "US_speednode_0026",
-        "US_speednode_0027",
-        "US_speednode_0028",
-        "US_speednode_0029",
-        "US_speednode_0030",
-        "US_speednode_0031",
-        "US_speednode_0032",
-        "US_speednode_0033",
-        "US_speednode_0034",
-        "US_speednode_0035",
-        "US_speednode_0036",
-        "US_speednode_0037",
-        "US_speednode_0038",
-        "US_speednode_0039",
-        "US_speednode_0040",
-        "US_speednode_0041",
-        "US_speednode_0042",
-        "US_speednode_0043",
-        "US_speednode_0044",
-        "US_speednode_0045"
+        "BG_speednode_0002",
+        "CA_speednode_0003",
+        "CH_speednode_0004",
+        "CH_speednode_0005",
+        "CN_speednode_0006",
+        "CZ_speednode_0007",
+        "CZ_speednode_0008",
+        "DE_speednode_0009",
+        "DE_speednode_0010",
+        "DE_speednode_0011",
+        "DE_speednode_0012",
+        "DE_speednode_0013",
+        "DE_speednode_0014",
+        "DE_speednode_0015",
+        "DE_speednode_0016",
+        "DE_speednode_0017",
+        "ES_speednode_0018",
+        "FI_speednode_0019",
+        "FI_speednode_0020",
+        "FR_speednode_0021",
+        "FR_speednode_0022",
+        "FR_speednode_0023",
+        "FR_speednode_0024",
+        "GB_speednode_0025",
+        "GB_speednode_0026",
+        "GB_speednode_0027",
+        "GB_speednode_0028",
+        "GB_speednode_0029",
+        "HK_speednode_0030",
+        "HK_speednode_0031",
+        "HK_speednode_0032",
+        "HK_speednode_0033",
+        "HK_speednode_0034",
+        "HK_speednode_0035",
+        "HU_speednode_0036",
+        "IR_speednode_0037",
+        "IR_speednode_0038",
+        "JP_speednode_0039",
+        "JP_speednode_0040",
+        "JP_speednode_0041",
+        "JP_speednode_0042",
+        "KR_speednode_0043",
+        "KR_speednode_0044",
+        "KR_speednode_0045",
+        "KR_speednode_0046",
+        "KR_speednode_0047",
+        "KR_speednode_0048",
+        "KR_speednode_0049",
+        "KR_speednode_0050",
+        "KR_speednode_0051",
+        "KR_speednode_0052",
+        "KR_speednode_0053",
+        "MD_speednode_0054",
+        "MD_speednode_0055",
+        "NL_speednode_0056",
+        "NL_speednode_0057",
+        "NL_speednode_0058",
+        "NL_speednode_0059",
+        "NL_speednode_0060",
+        "NL_speednode_0061",
+        "NL_speednode_0062",
+        "NL_speednode_0063",
+        "NL_speednode_0064",
+        "NL_speednode_0065",
+        "RU_speednode_0066",
+        "SE_speednode_0067",
+        "SG_speednode_0068",
+        "SG_speednode_0069",
+        "SI_speednode_0070",
+        "TR_speednode_0071",
+        "US_speednode_0072",
+        "US_speednode_0073",
+        "VN_speednode_0074"
       ]
     },
     {
@@ -138,50 +167,79 @@
       "type": "urltest",
       "outbounds": [
         "AT_speednode_0001",
-        "CA_speednode_0002",
-        "CN_speednode_0003",
-        "CR_speednode_0004",
-        "EE_speednode_0005",
-        "GB_speednode_0006",
-        "JP_speednode_0007",
-        "LT_speednode_0008",
-        "LT_speednode_0009",
-        "LT_speednode_0010",
-        "LT_speednode_0011",
-        "LT_speednode_0012",
-        "LT_speednode_0013",
-        "LT_speednode_0014",
-        "LT_speednode_0015",
-        "LV_speednode_0016",
-        "NL_speednode_0017",
-        "NL_speednode_0018",
-        "PL_speednode_0019",
-        "RU_speednode_0020",
-        "RU_speednode_0021",
-        "SG_speednode_0022",
-        "US_speednode_0023",
-        "US_speednode_0024",
-        "US_speednode_0025",
-        "US_speednode_0026",
-        "US_speednode_0027",
-        "US_speednode_0028",
-        "US_speednode_0029",
-        "US_speednode_0030",
-        "US_speednode_0031",
-        "US_speednode_0032",
-        "US_speednode_0033",
-        "US_speednode_0034",
-        "US_speednode_0035",
-        "US_speednode_0036",
-        "US_speednode_0037",
-        "US_speednode_0038",
-        "US_speednode_0039",
-        "US_speednode_0040",
-        "US_speednode_0041",
-        "US_speednode_0042",
-        "US_speednode_0043",
-        "US_speednode_0044",
-        "US_speednode_0045"
+        "BG_speednode_0002",
+        "CA_speednode_0003",
+        "CH_speednode_0004",
+        "CH_speednode_0005",
+        "CN_speednode_0006",
+        "CZ_speednode_0007",
+        "CZ_speednode_0008",
+        "DE_speednode_0009",
+        "DE_speednode_0010",
+        "DE_speednode_0011",
+        "DE_speednode_0012",
+        "DE_speednode_0013",
+        "DE_speednode_0014",
+        "DE_speednode_0015",
+        "DE_speednode_0016",
+        "DE_speednode_0017",
+        "ES_speednode_0018",
+        "FI_speednode_0019",
+        "FI_speednode_0020",
+        "FR_speednode_0021",
+        "FR_speednode_0022",
+        "FR_speednode_0023",
+        "FR_speednode_0024",
+        "GB_speednode_0025",
+        "GB_speednode_0026",
+        "GB_speednode_0027",
+        "GB_speednode_0028",
+        "GB_speednode_0029",
+        "HK_speednode_0030",
+        "HK_speednode_0031",
+        "HK_speednode_0032",
+        "HK_speednode_0033",
+        "HK_speednode_0034",
+        "HK_speednode_0035",
+        "HU_speednode_0036",
+        "IR_speednode_0037",
+        "IR_speednode_0038",
+        "JP_speednode_0039",
+        "JP_speednode_0040",
+        "JP_speednode_0041",
+        "JP_speednode_0042",
+        "KR_speednode_0043",
+        "KR_speednode_0044",
+        "KR_speednode_0045",
+        "KR_speednode_0046",
+        "KR_speednode_0047",
+        "KR_speednode_0048",
+        "KR_speednode_0049",
+        "KR_speednode_0050",
+        "KR_speednode_0051",
+        "KR_speednode_0052",
+        "KR_speednode_0053",
+        "MD_speednode_0054",
+        "MD_speednode_0055",
+        "NL_speednode_0056",
+        "NL_speednode_0057",
+        "NL_speednode_0058",
+        "NL_speednode_0059",
+        "NL_speednode_0060",
+        "NL_speednode_0061",
+        "NL_speednode_0062",
+        "NL_speednode_0063",
+        "NL_speednode_0064",
+        "NL_speednode_0065",
+        "RU_speednode_0066",
+        "SE_speednode_0067",
+        "SG_speednode_0068",
+        "SG_speednode_0069",
+        "SI_speednode_0070",
+        "TR_speednode_0071",
+        "US_speednode_0072",
+        "US_speednode_0073",
+        "VN_speednode_0074"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "10m",
@@ -202,767 +260,1629 @@
     {
       "tag": "AT_speednode_0001",
       "type": "vless",
-      "server": "212.183.88.242",
-      "server_port": 443,
-      "uuid": "a13df940-020c-465f-bc89-ee5279b5cd6a",
+      "server": "45.138.74.56",
+      "server_port": 2501,
+      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
-        "server_name": "dw.ylks.xyz",
-        "insecure": false
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/blue",
-        "headers": {
-          "Host": "dw.ylks.xyz"
-        }
-      }
-    },
-    {
-      "tag": "CA_speednode_0002",
-      "type": "shadowsocks",
-      "server": "64.74.163.130",
-      "server_port": 990,
-      "method": "chacha20-ietf-poly1305",
-      "password": "f8f7aCzcPKbsF8p3"
-    },
-    {
-      "tag": "CN_speednode_0003",
-      "type": "vmess",
-      "server": "183.240.253.26",
-      "server_port": 30565,
-      "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
-      "security": "auto",
-      "alter_id": 64
-    },
-    {
-      "tag": "CR_speednode_0004",
-      "type": "vless",
-      "server": "190.93.247.74",
-      "server_port": 443,
-      "uuid": "a13df940-020c-465f-bc89-ee5279b5cd6a",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "lv.kpcloud.eu.org",
+        "server_name": "a.mifeng.us.kg",
         "insecure": false
       },
       "transport": {
         "type": "ws",
         "path": "/",
         "headers": {
-          "Host": "lv.kpcloud.eu.org"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol",
-        "max_early_data": 2048
-      }
-    },
-    {
-      "tag": "EE_speednode_0005",
-      "type": "vless",
-      "server": "45.11.183.132",
-      "server_port": 443,
-      "uuid": "20fda433-1864-433b-b3dd-8f119fe4cafd",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "happy.mianfeicf.lol",
-        "insecure": false
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "happy.mianfeicf.lol"
+          "Host": "a.mifeng.us.kg"
         },
         "early_data_header_name": "Sec-WebSocket-Protocol",
         "max_early_data": 2560
       }
     },
     {
-      "tag": "GB_speednode_0006",
+      "tag": "BG_speednode_0002",
       "type": "vless",
-      "server": "18.132.103.175",
-      "server_port": 22222,
-      "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
+      "server": "31.13.248.74",
+      "server_port": 8000,
+      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
-        "server_name": "telegram-channel-vlessconfig.sohala.uk",
+        "server_name": "a.mifeng.us.kg",
         "insecure": false
       },
       "transport": {
         "type": "ws",
-        "path": "/telegram-channel-vlessconfig-ws",
-        "headers": {
-          "Host": "telegram-channel-vlessconfig.sohala.uk"
-        }
-      }
-    },
-    {
-      "tag": "JP_speednode_0007",
-      "type": "trojan",
-      "server": "54.249.161.173",
-      "server_port": 443,
-      "password": "8zlR8O7E3S8uqex4xYnpp8O6C3lZejBCZO53eYD7XIAaaTBRC3Cj9SCFxlAwKAwD2yyN3",
-      "tls": {
-        "enabled": true,
-        "server_name": "sniffle.meijireform.com",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "LT_speednode_0008",
-      "type": "shadowsocks",
-      "server": "45.87.175.188",
-      "server_port": 8080,
-      "method": "chacha20-ietf-poly1305",
-      "password": "1RWwXhwfAB5gAEozU4G2Pg"
-    },
-    {
-      "tag": "LT_speednode_0009",
-      "type": "shadowsocks",
-      "server": "45.87.175.178",
-      "server_port": 8080,
-      "method": "chacha20-ietf-poly1305",
-      "password": "1RWwXhwfAB5gAEozU4G2Pg"
-    },
-    {
-      "tag": "LT_speednode_0010",
-      "type": "shadowsocks",
-      "server": "45.87.175.154",
-      "server_port": 8080,
-      "method": "chacha20-ietf-poly1305",
-      "password": "4a2rfixophdjffa8KVA4Aa"
-    },
-    {
-      "tag": "LT_speednode_0011",
-      "type": "shadowsocks",
-      "server": "45.87.175.164",
-      "server_port": 8080,
-      "method": "chacha20-ietf-poly1305",
-      "password": "1RWwXhwfAB5gAEozU4G2Pg"
-    },
-    {
-      "tag": "LT_speednode_0012",
-      "type": "shadowsocks",
-      "server": "45.87.175.178",
-      "server_port": 8080,
-      "method": "chacha20-ietf-poly1305",
-      "password": "cvII85TrW6n0OGyfpHVS1u"
-    },
-    {
-      "tag": "LT_speednode_0013",
-      "type": "shadowsocks",
-      "server": "45.87.175.199",
-      "server_port": 8080,
-      "method": "chacha20-ietf-poly1305",
-      "password": "1RWwXhwfAB5gAEozU4G2Pg"
-    },
-    {
-      "tag": "LT_speednode_0014",
-      "type": "shadowsocks",
-      "server": "45.87.175.199",
-      "server_port": 8080,
-      "method": "chacha20-ietf-poly1305",
-      "password": "cvII85TrW6n0OGyfpHVS1u"
-    },
-    {
-      "tag": "LT_speednode_0015",
-      "type": "shadowsocks",
-      "server": "45.87.175.188",
-      "server_port": 8080,
-      "method": "chacha20-ietf-poly1305",
-      "password": "cvII85TrW6n0OGyfpHVS1u"
-    },
-    {
-      "tag": "LV_speednode_0016",
-      "type": "shadowsocks",
-      "server": "193.124.22.253",
-      "server_port": 33068,
-      "method": "chacha20-ietf-poly1305",
-      "password": "3MgIhqwp4pjM8SKwixNkYZ"
-    },
-    {
-      "tag": "NL_speednode_0017",
-      "type": "shadowsocks",
-      "server": "109.201.152.181",
-      "server_port": 443,
-      "method": "aes-128-cfb",
-      "password": "shadowsocks"
-    },
-    {
-      "tag": "NL_speednode_0018",
-      "type": "shadowsocks",
-      "server": "194.87.82.28",
-      "server_port": 12224,
-      "method": "chacha20-ietf-poly1305",
-      "password": "2fwufOmJ9ELfN4umzcHBfV"
-    },
-    {
-      "tag": "PL_speednode_0019",
-      "type": "vmess",
-      "server": "128.204.223.43",
-      "server_port": 14654,
-      "uuid": "a6908164-5a97-4238-ef8e-44e42d2111c2",
-      "security": "auto",
-      "alter_id": 0
-    },
-    {
-      "tag": "RU_speednode_0020",
-      "type": "shadowsocks",
-      "server": "46.17.40.57",
-      "server_port": 12345,
-      "method": "aes-256-gcm",
-      "password": "dongtaiwang.com"
-    },
-    {
-      "tag": "RU_speednode_0021",
-      "type": "vless",
-      "server": "188.42.145.159",
-      "server_port": 443,
-      "uuid": "54ef4ecf-ff37-436a-be13-95c8a8a1114d",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "VIrgiNiavPn-nL.pagEs.dEv",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
         "path": "/",
         "headers": {
-          "Host": "VIrgiNiavPn-nL.pagEs.dEv"
-        }
-      }
-    },
-    {
-      "tag": "SG_speednode_0022",
-      "type": "shadowsocks",
-      "server": "13.229.182.85",
-      "server_port": 443,
-      "method": "aes-256-cfb",
-      "password": "amazonskr05"
-    },
-    {
-      "tag": "US_speednode_0023",
-      "type": "vless",
-      "server": "140.248.152.40",
-      "server_port": 443,
-      "uuid": "89b3cbba-e6ac-485a-9481-976a0415eab9",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "Sanjeshp.Ir",
-        "insecure": true,
-        "alpn": [
-          "h2",
-          "http/1.1"
-        ]
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "Sanjeshp.Ir"
-        }
-      }
-    },
-    {
-      "tag": "US_speednode_0024",
-      "type": "vless",
-      "server": "199.232.7.181",
-      "server_port": 443,
-      "uuid": "83082070-6b71-4e48-937a-3e4bf304fe68",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "ELeNa-JOinBede-ELiV2rAY.ir",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "qq"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "ELeNa-JOinBede-ELiV2rAY.ir"
-        }
-      }
-    },
-    {
-      "tag": "US_speednode_0025",
-      "type": "vless",
-      "server": "162.159.192.79",
-      "server_port": 443,
-      "uuid": "89b3cbba-e6ac-485a-9481-976a0415eab9",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "BloOM-cHh.PagEs.dEv",
-        "insecure": false
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/mtasyzxvkfadcumf",
-        "headers": {
-          "Host": "BloOM-cHh.PagEs.dEv"
+          "Host": "a.mifeng.us.kg"
         },
         "early_data_header_name": "Sec-WebSocket-Protocol",
         "max_early_data": 2560
       }
     },
     {
-      "tag": "US_speednode_0026",
+      "tag": "CA_speednode_0003",
       "type": "vless",
-      "server": "199.232.1.255",
-      "server_port": 443,
-      "uuid": "89b3cbba-e6ac-485a-9481-976a0415eab9",
+      "server": "81.19.140.78",
+      "server_port": 2003,
+      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
-        "server_name": "Sanjeshp.Ir",
-        "insecure": true,
-        "alpn": [
-          "h2",
-          "http/1.1"
-        ]
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "Sanjeshp.Ir"
-        }
-      }
-    },
-    {
-      "tag": "US_speednode_0027",
-      "type": "vless",
-      "server": "199.232.33.127",
-      "server_port": 443,
-      "uuid": "89b3cbba-e6ac-485a-9481-976a0415eab9",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "mefa.ir",
-        "insecure": true,
-        "alpn": [
-          "h2",
-          "http/1.1"
-        ],
-        "utls": {
-          "enabled": true,
-          "fingerprint": "randomized"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/H",
-        "headers": {
-          "Host": "mefa.ir"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol",
-        "max_early_data": 2560
-      }
-    },
-    {
-      "tag": "US_speednode_0028",
-      "type": "vless",
-      "server": "162.159.192.163",
-      "server_port": 443,
-      "uuid": "89b3cbba-e6ac-485a-9481-976a0415eab9",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "blOOM-cHh.pAges.DeV",
-        "insecure": false
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nyx3uit72gutb8pa",
-        "headers": {
-          "Host": "blOOM-cHh.pAges.DeV"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol",
-        "max_early_data": 2560
-      }
-    },
-    {
-      "tag": "US_speednode_0029",
-      "type": "shadowsocks",
-      "server": "38.86.135.141",
-      "server_port": 8882,
-      "method": "aes-256-gcm",
-      "password": "kDWvXYZoTBcGkC4"
-    },
-    {
-      "tag": "US_speednode_0030",
-      "type": "vless",
-      "server": "172.64.155.209",
-      "server_port": 2087,
-      "uuid": "15f34214-d8de-41e9-ba72-93daeafc59ef",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "subhiddify.mmdv2.host",
+        "server_name": "a.mifeng.us.kg",
         "insecure": false
       },
       "transport": {
         "type": "ws",
         "path": "/",
         "headers": {
-          "Host": "subhiddify.mmdv2.host"
+          "Host": "a.mifeng.us.kg"
         },
         "early_data_header_name": "Sec-WebSocket-Protocol",
         "max_early_data": 2560
       }
     },
     {
-      "tag": "US_speednode_0031",
+      "tag": "CH_speednode_0004",
       "type": "vless",
-      "server": "104.18.32.47",
-      "server_port": 2087,
-      "uuid": "15f34214-d8de-41e9-ba72-93daeafc59ef",
+      "server": "144.24.248.38",
+      "server_port": 587,
+      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
-        "server_name": "subhiddify.mmdv2.host",
+        "server_name": "a.mifeng.us.kg",
         "insecure": false
       },
       "transport": {
         "type": "ws",
         "path": "/",
         "headers": {
-          "Host": "subhiddify.mmdv2.host"
+          "Host": "a.mifeng.us.kg"
         },
         "early_data_header_name": "Sec-WebSocket-Protocol",
         "max_early_data": 2560
       }
     },
     {
-      "tag": "US_speednode_0032",
+      "tag": "CH_speednode_0005",
       "type": "vless",
-      "server": "167.82.97.248",
-      "server_port": 443,
-      "uuid": "89b3cbba-e6ac-485a-9481-976a0415eab9",
+      "server": "179.43.144.10",
+      "server_port": 8000,
+      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
-        "server_name": "backtory.com",
-        "insecure": true,
-        "alpn": [
-          "h2",
-          "http%2F1.1"
-        ],
-        "utls": {
-          "enabled": true,
-          "fingerprint": "randomized"
-        }
+        "server_name": "a.mifeng.us.kg",
+        "insecure": false
       },
       "transport": {
         "type": "ws",
-        "path": "/GGPPfZ3NKyOoKNiK",
+        "path": "/",
         "headers": {
-          "Host": "backtory.com"
+          "Host": "a.mifeng.us.kg"
         },
         "early_data_header_name": "Sec-WebSocket-Protocol",
         "max_early_data": 2560
       }
     },
     {
-      "tag": "US_speednode_0033",
+      "tag": "CN_speednode_0006",
       "type": "vless",
-      "server": "167.82.30.71",
-      "server_port": 80,
-      "uuid": "89b3cbba-e6ac-485a-9481-976a0415eab9",
+      "server": "103.142.102.236",
+      "server_port": 587,
+      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
       "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "a.mifeng.us.kg",
+        "insecure": false
+      },
       "transport": {
         "type": "ws",
-        "path": "/4u7lAS4nPLtz0xPz",
+        "path": "/",
         "headers": {
-          "Host": "samane.ir"
+          "Host": "a.mifeng.us.kg"
         },
         "early_data_header_name": "Sec-WebSocket-Protocol",
         "max_early_data": 2560
       }
     },
     {
-      "tag": "US_speednode_0034",
+      "tag": "CZ_speednode_0007",
       "type": "vless",
-      "server": "199.232.8.68",
-      "server_port": 443,
-      "uuid": "80772220-3e7d-5f06-ae29-96672b8fa6df",
+      "server": "194.87.208.88",
+      "server_port": 2501,
+      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
-        "server_name": "ELiv2RAy-jOiN.cOm",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "qq"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "ELiv2RAy-jOiN.cOm"
-        }
-      }
-    },
-    {
-      "tag": "US_speednode_0035",
-      "type": "vless",
-      "server": "150.241.83.80",
-      "server_port": 8443,
-      "uuid": "5a64a684-7c96-42b4-b066-8ec3a138998a",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "yyyyyyyu.v2ryng01.ru",
-        "insecure": true,
-        "alpn": [
-          "h2",
-          "http%2F1.1"
-        ]
-      }
-    },
-    {
-      "tag": "US_speednode_0036",
-      "type": "vless",
-      "server": "198.62.62.185",
-      "server_port": 443,
-      "uuid": "a13df940-020c-465f-bc89-ee5279b5cd6a",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "lu.ylks01.eu.org",
-        "insecure": false
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/proxyip=proxyip.us.fxxk.dedyn.io",
-        "headers": {
-          "Host": "lu.ylks01.eu.org"
-        }
-      }
-    },
-    {
-      "tag": "US_speednode_0037",
-      "type": "vless",
-      "server": "69.84.182.138",
-      "server_port": 443,
-      "uuid": "a13df940-020c-465f-bc89-ee5279b5cd6a",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "lu.ylks01.eu.org",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/blue",
-        "headers": {
-          "Host": "lu.ylks01.eu.org"
-        }
-      }
-    },
-    {
-      "tag": "US_speednode_0038",
-      "type": "vless",
-      "server": "192.200.160.90",
-      "server_port": 443,
-      "uuid": "a13df940-020c-465f-bc89-ee5279b5cd6a",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "dw.ylks.xyz",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/blue",
-        "headers": {
-          "Host": "dw.ylks.xyz"
-        }
-      }
-    },
-    {
-      "tag": "US_speednode_0039",
-      "type": "vless",
-      "server": "172.66.45.10",
-      "server_port": 443,
-      "uuid": "70ea7a10-de3e-4922-bc7c-4dd7c2cef882",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "newtunnel-2xm.pages.dev",
-        "insecure": false
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/vless",
-        "headers": {
-          "Host": "newtunnel-2xm.pages.dev"
-        }
-      }
-    },
-    {
-      "tag": "US_speednode_0040",
-      "type": "vless",
-      "server": "172.67.216.146",
-      "server_port": 443,
-      "uuid": "0aa8ae7e-9604-4fa7-8418-6468c817bee6",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "grxzk.kovmk.website",
+        "server_name": "a.mifeng.us.kg",
         "insecure": false
       },
       "transport": {
         "type": "ws",
         "path": "/",
         "headers": {
-          "Host": "grxzk.kovmk.website"
-        }
+          "Host": "a.mifeng.us.kg"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol",
+        "max_early_data": 2560
       }
     },
     {
-      "tag": "US_speednode_0041",
+      "tag": "CZ_speednode_0008",
       "type": "vless",
-      "server": "104.19.223.79",
-      "server_port": 443,
-      "uuid": "9cbdc595-1d8d-4443-af07-99149153d025",
+      "server": "194.87.11.56",
+      "server_port": 8000,
+      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
-        "server_name": "2f2aa869a6c74af796bb.starsha-goodd.info",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/abcdews",
-        "headers": {
-          "Host": "2f2aa869a6c74af796bb.starsha-goodd.info"
-        }
-      }
-    },
-    {
-      "tag": "US_speednode_0042",
-      "type": "vmess",
-      "server": "104.22.32.78",
-      "server_port": 2087,
-      "uuid": "2d461b07-94f6-4ac1-be48-76a3fdae827b",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "server_name": "OfFeR.MirAclestORy.tOP.",
+        "server_name": "a.mifeng.us.kg",
         "insecure": false
       },
       "transport": {
         "type": "ws",
         "path": "/",
         "headers": {
-          "Host": "OfFeR.MirAclestORy.tOP."
-        }
+          "Host": "a.mifeng.us.kg"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol",
+        "max_early_data": 2560
       }
     },
     {
-      "tag": "US_speednode_0043",
+      "tag": "DE_speednode_0009",
       "type": "vless",
-      "server": "172.64.150.28",
-      "server_port": 443,
-      "uuid": "9cbdc595-1d8d-4443-af07-99149153d025",
+      "server": "89.185.85.196",
+      "server_port": 2003,
+      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
-        "server_name": "e16ebb1457c945089bc8.starsha-goodd.info",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
+        "server_name": "a.mifeng.us.kg",
+        "insecure": false
       },
       "transport": {
         "type": "ws",
-        "path": "/abcdews",
+        "path": "/",
         "headers": {
-          "Host": "e16ebb1457c945089bc8.starsha-goodd.info"
-        }
+          "Host": "a.mifeng.us.kg"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol",
+        "max_early_data": 2560
       }
     },
     {
-      "tag": "US_speednode_0044",
+      "tag": "DE_speednode_0010",
       "type": "vless",
-      "server": "104.18.37.228",
-      "server_port": 443,
-      "uuid": "9cbdc595-1d8d-4443-af07-99149153d025",
+      "server": "78.46.170.185",
+      "server_port": 1001,
+      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
-        "server_name": "e16ebb1457c945089bc8.starsha-goodd.info",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
+        "server_name": "a.mifeng.us.kg",
+        "insecure": false
       },
       "transport": {
         "type": "ws",
-        "path": "/abcdews",
+        "path": "/",
         "headers": {
-          "Host": "e16ebb1457c945089bc8.starsha-goodd.info"
-        }
+          "Host": "a.mifeng.us.kg"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol",
+        "max_early_data": 2560
       }
     },
     {
-      "tag": "US_speednode_0045",
+      "tag": "DE_speednode_0011",
       "type": "vless",
-      "server": "104.20.195.223",
-      "server_port": 2087,
-      "uuid": "0399af93-ed7e-4717-ba12-aa1f4e45a5c6",
+      "server": "89.185.85.196",
+      "server_port": 2501,
+      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
-        "server_name": "mn.aftabe12.ir",
-        "insecure": false,
-        "alpn": [
-          "h3",
-          "h2",
-          "http%2F1.1"
-        ],
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
+        "server_name": "a.mifeng.us.kg",
+        "insecure": false
       },
       "transport": {
         "type": "ws",
-        "path": "/Tel:@BLACK_VPN1",
+        "path": "/",
         "headers": {
-          "Host": "mn.aftabe12.ir"
-        }
+          "Host": "a.mifeng.us.kg"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol",
+        "max_early_data": 2560
+      }
+    },
+    {
+      "tag": "DE_speednode_0012",
+      "type": "vless",
+      "server": "159.69.22.135",
+      "server_port": 1001,
+      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "a.mifeng.us.kg",
+        "insecure": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "a.mifeng.us.kg"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol",
+        "max_early_data": 2560
+      }
+    },
+    {
+      "tag": "DE_speednode_0013",
+      "type": "vless",
+      "server": "8.209.109.10",
+      "server_port": 587,
+      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "a.mifeng.us.kg",
+        "insecure": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "a.mifeng.us.kg"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol",
+        "max_early_data": 2560
+      }
+    },
+    {
+      "tag": "DE_speednode_0014",
+      "type": "vless",
+      "server": "49.12.191.34",
+      "server_port": 1001,
+      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "a.mifeng.us.kg",
+        "insecure": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "a.mifeng.us.kg"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol",
+        "max_early_data": 2560
+      }
+    },
+    {
+      "tag": "DE_speednode_0015",
+      "type": "vless",
+      "server": "37.120.184.206",
+      "server_port": 1001,
+      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "a.mifeng.us.kg",
+        "insecure": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "a.mifeng.us.kg"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol",
+        "max_early_data": 2560
+      }
+    },
+    {
+      "tag": "DE_speednode_0016",
+      "type": "vless",
+      "server": "91.107.128.26",
+      "server_port": 854,
+      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "a.mifeng.us.kg",
+        "insecure": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "a.mifeng.us.kg"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol",
+        "max_early_data": 2560
+      }
+    },
+    {
+      "tag": "DE_speednode_0017",
+      "type": "vless",
+      "server": "92.118.190.71",
+      "server_port": 55555,
+      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "a.mifeng.us.kg",
+        "insecure": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "a.mifeng.us.kg"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol",
+        "max_early_data": 2560
+      }
+    },
+    {
+      "tag": "ES_speednode_0018",
+      "type": "vless",
+      "server": "94.250.246.200",
+      "server_port": 8080,
+      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "a.mifeng.us.kg",
+        "insecure": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "a.mifeng.us.kg"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol",
+        "max_early_data": 2560
+      }
+    },
+    {
+      "tag": "FI_speednode_0019",
+      "type": "vless",
+      "server": "65.21.158.255",
+      "server_port": 2222,
+      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "a.mifeng.us.kg",
+        "insecure": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "a.mifeng.us.kg"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol",
+        "max_early_data": 2560
+      }
+    },
+    {
+      "tag": "FI_speednode_0020",
+      "type": "vless",
+      "server": "95.217.135.15",
+      "server_port": 587,
+      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "a.mifeng.us.kg",
+        "insecure": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "a.mifeng.us.kg"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol",
+        "max_early_data": 2560
+      }
+    },
+    {
+      "tag": "FR_speednode_0021",
+      "type": "vless",
+      "server": "152.228.207.76",
+      "server_port": 8080,
+      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "a.mifeng.us.kg",
+        "insecure": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "a.mifeng.us.kg"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol",
+        "max_early_data": 2560
+      }
+    },
+    {
+      "tag": "FR_speednode_0022",
+      "type": "vless",
+      "server": "77.221.152.41",
+      "server_port": 2003,
+      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "a.mifeng.us.kg",
+        "insecure": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "a.mifeng.us.kg"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol",
+        "max_early_data": 2560
+      }
+    },
+    {
+      "tag": "FR_speednode_0023",
+      "type": "vless",
+      "server": "188.165.24.25",
+      "server_port": 587,
+      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "a.mifeng.us.kg",
+        "insecure": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "a.mifeng.us.kg"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol",
+        "max_early_data": 2560
+      }
+    },
+    {
+      "tag": "FR_speednode_0024",
+      "type": "vless",
+      "server": "141.94.206.40",
+      "server_port": 587,
+      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "a.mifeng.us.kg",
+        "insecure": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "a.mifeng.us.kg"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol",
+        "max_early_data": 2560
+      }
+    },
+    {
+      "tag": "GB_speednode_0025",
+      "type": "vless",
+      "server": "8.211.207.185",
+      "server_port": 587,
+      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "a.mifeng.us.kg",
+        "insecure": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "a.mifeng.us.kg"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol",
+        "max_early_data": 2560
+      }
+    },
+    {
+      "tag": "GB_speednode_0026",
+      "type": "vless",
+      "server": "149.5.52.148",
+      "server_port": 587,
+      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "a.mifeng.us.kg",
+        "insecure": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "a.mifeng.us.kg"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol",
+        "max_early_data": 2560
+      }
+    },
+    {
+      "tag": "GB_speednode_0027",
+      "type": "vless",
+      "server": "101.36.97.226",
+      "server_port": 587,
+      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "a.mifeng.us.kg",
+        "insecure": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "a.mifeng.us.kg"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol",
+        "max_early_data": 2560
+      }
+    },
+    {
+      "tag": "GB_speednode_0028",
+      "type": "vless",
+      "server": "8.208.94.35",
+      "server_port": 587,
+      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "a.mifeng.us.kg",
+        "insecure": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "a.mifeng.us.kg"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol",
+        "max_early_data": 2560
+      }
+    },
+    {
+      "tag": "GB_speednode_0029",
+      "type": "vless",
+      "server": "37.230.62.172",
+      "server_port": 8080,
+      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "a.mifeng.us.kg",
+        "insecure": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "a.mifeng.us.kg"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol",
+        "max_early_data": 2560
+      }
+    },
+    {
+      "tag": "HK_speednode_0030",
+      "type": "vless",
+      "server": "8.217.29.82",
+      "server_port": 587,
+      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "a.mifeng.us.kg",
+        "insecure": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "a.mifeng.us.kg"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol",
+        "max_early_data": 2560
+      }
+    },
+    {
+      "tag": "HK_speednode_0031",
+      "type": "vless",
+      "server": "8.218.153.62",
+      "server_port": 587,
+      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "a.mifeng.us.kg",
+        "insecure": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "a.mifeng.us.kg"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol",
+        "max_early_data": 2560
+      }
+    },
+    {
+      "tag": "HK_speednode_0032",
+      "type": "vless",
+      "server": "8.218.132.79",
+      "server_port": 587,
+      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "a.mifeng.us.kg",
+        "insecure": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "a.mifeng.us.kg"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol",
+        "max_early_data": 2560
+      }
+    },
+    {
+      "tag": "HK_speednode_0033",
+      "type": "vless",
+      "server": "8.218.152.147",
+      "server_port": 587,
+      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "a.mifeng.us.kg",
+        "insecure": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "a.mifeng.us.kg"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol",
+        "max_early_data": 2560
+      }
+    },
+    {
+      "tag": "HK_speednode_0034",
+      "type": "vless",
+      "server": "107.150.119.240",
+      "server_port": 587,
+      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "a.mifeng.us.kg",
+        "insecure": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "a.mifeng.us.kg"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol",
+        "max_early_data": 2560
+      }
+    },
+    {
+      "tag": "HK_speednode_0035",
+      "type": "vless",
+      "server": "59.149.204.218",
+      "server_port": 54321,
+      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "a.mifeng.us.kg",
+        "insecure": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "a.mifeng.us.kg"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol",
+        "max_early_data": 2560
+      }
+    },
+    {
+      "tag": "HU_speednode_0036",
+      "type": "vless",
+      "server": "45.138.90.43",
+      "server_port": 11001,
+      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "a.mifeng.us.kg",
+        "insecure": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "a.mifeng.us.kg"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol",
+        "max_early_data": 2560
+      }
+    },
+    {
+      "tag": "IR_speednode_0037",
+      "type": "vless",
+      "server": "31.14.116.12",
+      "server_port": 8000,
+      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "a.mifeng.us.kg",
+        "insecure": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "a.mifeng.us.kg"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol",
+        "max_early_data": 2560
+      }
+    },
+    {
+      "tag": "IR_speednode_0038",
+      "type": "vless",
+      "server": "94.182.136.181",
+      "server_port": 2222,
+      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "a.mifeng.us.kg",
+        "insecure": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "a.mifeng.us.kg"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol",
+        "max_early_data": 2560
+      }
+    },
+    {
+      "tag": "JP_speednode_0039",
+      "type": "vless",
+      "server": "8.209.217.106",
+      "server_port": 587,
+      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "a.mifeng.us.kg",
+        "insecure": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "a.mifeng.us.kg"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol",
+        "max_early_data": 2560
+      }
+    },
+    {
+      "tag": "JP_speednode_0040",
+      "type": "vless",
+      "server": "8.209.220.155",
+      "server_port": 587,
+      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "a.mifeng.us.kg",
+        "insecure": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "a.mifeng.us.kg"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol",
+        "max_early_data": 2560
+      }
+    },
+    {
+      "tag": "JP_speednode_0041",
+      "type": "vless",
+      "server": "160.16.242.208",
+      "server_port": 8889,
+      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "a.mifeng.us.kg",
+        "insecure": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "a.mifeng.us.kg"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol",
+        "max_early_data": 2560
+      }
+    },
+    {
+      "tag": "JP_speednode_0042",
+      "type": "vless",
+      "server": "64.110.103.142",
+      "server_port": 587,
+      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "a.mifeng.us.kg",
+        "insecure": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "a.mifeng.us.kg"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol",
+        "max_early_data": 2560
+      }
+    },
+    {
+      "tag": "KR_speednode_0043",
+      "type": "vless",
+      "server": "146.56.179.20",
+      "server_port": 8000,
+      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "a.mifeng.us.kg",
+        "insecure": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "a.mifeng.us.kg"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol",
+        "max_early_data": 2560
+      }
+    },
+    {
+      "tag": "KR_speednode_0044",
+      "type": "vless",
+      "server": "140.238.2.81",
+      "server_port": 587,
+      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "a.mifeng.us.kg",
+        "insecure": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "a.mifeng.us.kg"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol",
+        "max_early_data": 2560
+      }
+    },
+    {
+      "tag": "KR_speednode_0045",
+      "type": "vless",
+      "server": "14.43.88.180",
+      "server_port": 33890,
+      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "a.mifeng.us.kg",
+        "insecure": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "a.mifeng.us.kg"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol",
+        "max_early_data": 2560
+      }
+    },
+    {
+      "tag": "KR_speednode_0046",
+      "type": "vless",
+      "server": "222.112.148.240",
+      "server_port": 11310,
+      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "a.mifeng.us.kg",
+        "insecure": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "a.mifeng.us.kg"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol",
+        "max_early_data": 2560
+      }
+    },
+    {
+      "tag": "KR_speednode_0047",
+      "type": "vless",
+      "server": "211.107.83.151",
+      "server_port": 11211,
+      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "a.mifeng.us.kg",
+        "insecure": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "a.mifeng.us.kg"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol",
+        "max_early_data": 2560
+      }
+    },
+    {
+      "tag": "KR_speednode_0048",
+      "type": "vless",
+      "server": "119.200.244.99",
+      "server_port": 33890,
+      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "a.mifeng.us.kg",
+        "insecure": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "a.mifeng.us.kg"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol",
+        "max_early_data": 2560
+      }
+    },
+    {
+      "tag": "KR_speednode_0049",
+      "type": "vless",
+      "server": "61.84.15.163",
+      "server_port": 11001,
+      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "a.mifeng.us.kg",
+        "insecure": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "a.mifeng.us.kg"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol",
+        "max_early_data": 2560
+      }
+    },
+    {
+      "tag": "KR_speednode_0050",
+      "type": "vless",
+      "server": "125.128.118.250",
+      "server_port": 27018,
+      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "a.mifeng.us.kg",
+        "insecure": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "a.mifeng.us.kg"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol",
+        "max_early_data": 2560
+      }
+    },
+    {
+      "tag": "KR_speednode_0051",
+      "type": "vless",
+      "server": "220.87.185.18",
+      "server_port": 11001,
+      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "a.mifeng.us.kg",
+        "insecure": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "a.mifeng.us.kg"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol",
+        "max_early_data": 2560
+      }
+    },
+    {
+      "tag": "KR_speednode_0052",
+      "type": "vless",
+      "server": "121.184.130.110",
+      "server_port": 19150,
+      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "a.mifeng.us.kg",
+        "insecure": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "a.mifeng.us.kg"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol",
+        "max_early_data": 2560
+      }
+    },
+    {
+      "tag": "KR_speednode_0053",
+      "type": "vless",
+      "server": "61.80.1.32",
+      "server_port": 28006,
+      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "a.mifeng.us.kg",
+        "insecure": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "a.mifeng.us.kg"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol",
+        "max_early_data": 2560
+      }
+    },
+    {
+      "tag": "MD_speednode_0054",
+      "type": "vless",
+      "server": "95.164.22.239",
+      "server_port": 2003,
+      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "a.mifeng.us.kg",
+        "insecure": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "a.mifeng.us.kg"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol",
+        "max_early_data": 2560
+      }
+    },
+    {
+      "tag": "MD_speednode_0055",
+      "type": "vless",
+      "server": "95.164.22.239",
+      "server_port": 2501,
+      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "a.mifeng.us.kg",
+        "insecure": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "a.mifeng.us.kg"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol",
+        "max_early_data": 2560
+      }
+    },
+    {
+      "tag": "NL_speednode_0056",
+      "type": "vless",
+      "server": "45.130.20.40",
+      "server_port": 1001,
+      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "a.mifeng.us.kg",
+        "insecure": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "a.mifeng.us.kg"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol",
+        "max_early_data": 2560
+      }
+    },
+    {
+      "tag": "NL_speednode_0057",
+      "type": "vless",
+      "server": "5.2.73.137",
+      "server_port": 7000,
+      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "a.mifeng.us.kg",
+        "insecure": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "a.mifeng.us.kg"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol",
+        "max_early_data": 2560
+      }
+    },
+    {
+      "tag": "NL_speednode_0058",
+      "type": "vless",
+      "server": "45.94.31.109",
+      "server_port": 2003,
+      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "a.mifeng.us.kg",
+        "insecure": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "a.mifeng.us.kg"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol",
+        "max_early_data": 2560
+      }
+    },
+    {
+      "tag": "NL_speednode_0059",
+      "type": "vless",
+      "server": "45.94.31.75",
+      "server_port": 2003,
+      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "a.mifeng.us.kg",
+        "insecure": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "a.mifeng.us.kg"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol",
+        "max_early_data": 2560
+      }
+    },
+    {
+      "tag": "NL_speednode_0060",
+      "type": "vless",
+      "server": "2.58.56.31",
+      "server_port": 2003,
+      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "a.mifeng.us.kg",
+        "insecure": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "a.mifeng.us.kg"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol",
+        "max_early_data": 2560
+      }
+    },
+    {
+      "tag": "NL_speednode_0061",
+      "type": "vless",
+      "server": "45.94.31.75",
+      "server_port": 1001,
+      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "a.mifeng.us.kg",
+        "insecure": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "a.mifeng.us.kg"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol",
+        "max_early_data": 2560
+      }
+    },
+    {
+      "tag": "NL_speednode_0062",
+      "type": "vless",
+      "server": "45.94.31.109",
+      "server_port": 1001,
+      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "a.mifeng.us.kg",
+        "insecure": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "a.mifeng.us.kg"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol",
+        "max_early_data": 2560
+      }
+    },
+    {
+      "tag": "NL_speednode_0063",
+      "type": "vless",
+      "server": "195.200.19.139",
+      "server_port": 6060,
+      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "a.mifeng.us.kg",
+        "insecure": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "a.mifeng.us.kg"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol",
+        "max_early_data": 2560
+      }
+    },
+    {
+      "tag": "NL_speednode_0064",
+      "type": "vless",
+      "server": "93.185.163.186",
+      "server_port": 3001,
+      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "a.mifeng.us.kg",
+        "insecure": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "a.mifeng.us.kg"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol",
+        "max_early_data": 2560
+      }
+    },
+    {
+      "tag": "NL_speednode_0065",
+      "type": "vless",
+      "server": "103.214.68.133",
+      "server_port": 587,
+      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "a.mifeng.us.kg",
+        "insecure": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "a.mifeng.us.kg"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol",
+        "max_early_data": 2560
+      }
+    },
+    {
+      "tag": "RU_speednode_0066",
+      "type": "vless",
+      "server": "185.22.155.139",
+      "server_port": 587,
+      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "a.mifeng.us.kg",
+        "insecure": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "a.mifeng.us.kg"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol",
+        "max_early_data": 2560
+      }
+    },
+    {
+      "tag": "SE_speednode_0067",
+      "type": "vless",
+      "server": "95.164.51.24",
+      "server_port": 2501,
+      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "a.mifeng.us.kg",
+        "insecure": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "a.mifeng.us.kg"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol",
+        "max_early_data": 2560
+      }
+    },
+    {
+      "tag": "SG_speednode_0068",
+      "type": "vless",
+      "server": "8.222.129.84",
+      "server_port": 587,
+      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "a.mifeng.us.kg",
+        "insecure": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "a.mifeng.us.kg"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol",
+        "max_early_data": 2560
+      }
+    },
+    {
+      "tag": "SG_speednode_0069",
+      "type": "vless",
+      "server": "138.2.109.23",
+      "server_port": 587,
+      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "a.mifeng.us.kg",
+        "insecure": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "a.mifeng.us.kg"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol",
+        "max_early_data": 2560
+      }
+    },
+    {
+      "tag": "SI_speednode_0070",
+      "type": "vless",
+      "server": "212.13.236.132",
+      "server_port": 10001,
+      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "a.mifeng.us.kg",
+        "insecure": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "a.mifeng.us.kg"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol",
+        "max_early_data": 2560
+      }
+    },
+    {
+      "tag": "TR_speednode_0071",
+      "type": "vless",
+      "server": "95.164.116.22",
+      "server_port": 2501,
+      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "a.mifeng.us.kg",
+        "insecure": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "a.mifeng.us.kg"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol",
+        "max_early_data": 2560
+      }
+    },
+    {
+      "tag": "US_speednode_0072",
+      "type": "vless",
+      "server": "165.154.134.125",
+      "server_port": 587,
+      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "a.mifeng.us.kg",
+        "insecure": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "a.mifeng.us.kg"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol",
+        "max_early_data": 2560
+      }
+    },
+    {
+      "tag": "US_speednode_0073",
+      "type": "vless",
+      "server": "45.43.55.115",
+      "server_port": 587,
+      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "a.mifeng.us.kg",
+        "insecure": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "a.mifeng.us.kg"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol",
+        "max_early_data": 2560
+      }
+    },
+    {
+      "tag": "VN_speednode_0074",
+      "type": "vless",
+      "server": "152.32.255.24",
+      "server_port": 587,
+      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "a.mifeng.us.kg",
+        "insecure": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "a.mifeng.us.kg"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol",
+        "max_early_data": 2560
       }
     }
   ],
